@@ -1,0 +1,10 @@
+10.1.0.25;www.renault.fr/accueil.html;17/12/2022 14:04:45;Firefox 
+10.1.0.67;www.polymousse.fr/default.html;17/12/2022 14:05:16;Google Chrome
+10.1.0.137;www.peugeot.fr/fournisseurs.php;17/12/2022 14:05:18;Firefox 
+10.1.0.67;www.polymousse.fr/stock.php;17/12/2022 14:05:35;Google Chrome
+10.1.0.25;www.renault.fr/fournisseurs.html;17/12/2022 14:05:37;Firefox
+10.1.0.67;www.polymousse.fr/extranet.html;17/12/2022 14:05:45;Microsoft Edge
+10.1.0.67;www.polymousse.fr/client.html;17/12/2022 14:05:47;Google Chrome
+10.1.0.45;www.polymousse.fr/client.html;17/12/2022 14:05:47;Google Chrome
+10.1.0.30;www.renault.fr/fournisseurs.html;17/12/2022 14:05:37;Firefox
+10.1.0.45;www.polymousse.fr/default.html;17/12/2022 14:05:16;Google Chrome

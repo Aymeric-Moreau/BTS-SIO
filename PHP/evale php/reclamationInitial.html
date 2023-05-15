@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  
+	  
+	</head>
+<body>
+	<form method="post" action="recup.php" name="unformulaire">
+	<fieldset>
+	  <title>Formulaire</title>
+			<legend>Formulaire de réclamation</legend>
+			<fieldset>
+				<legend>Coordonnées</legend>
+
+					<label>Civilité : </label> 
+					<select name="civilite" id="civilite" size ="1">
+						<option value ="Monsieur"> Monsieur </option>
+						<option value ="Monsieur"> Madame </option>
+					</select>
+					<label>Nom :</label> <input type="text" id="nom" name="nom" size="20">
+					<label>Prenom : </label> <input type="text" id="pre" name="pre" size="20" /><br><br>
+					<label>Adresse : </label> <input type="text" name="add" id="add" size="25" /><br><br>
+					<label>Code postal :</label> <input type="text" name="cp" id="cp" size="5" />
+					<label>Ville : </label> <input type="text" name="ville" id="ville"><br><br>
+					<label>Téléphone : </label> <input type="tel" id="telephone" name="telephone"><br><br>
+					<label>Mail : </label> <input type="email" name="mail" id="mail"><br>
+			</fieldset>
+			<fieldset>
+				<legend>Famille(s) de produits</legend>
+							<input type="radio" name="pdt[]" value="Vetement Homme"> <label>Vetement Homme</label><br>
+							<input type="radio" name="pdt[]" value="Vêtement Femme"> <label>Vêtement Femme</label><br>
+							<input type="radio" name="pdt[]" value="Vêtement Enfant"> <label>Vêtement Enfant</label><br> 						</fieldset>
+				
+			<fieldset>
+				<legend>Action souhaitée</legend>
+				<input type="radio" name="radio" value="remboursement"> <label>remboursement</label><br>
+				<input type="radio" name="radio" value="Avoir"> <label>Avoir</label><br>
+				<input type="radio" name="radio" value="Echange"> <label>Echange</label><br>
+			</fieldset>
+			<fieldset>
+				<legend>Motif</legend>
+					<input type="checkbox" name="motif[]" value="Taille incorrecte"> <label>Taille incorrecte</label><br>
+					<input type="checkbox" name="motif[]" value="Abimé"> <label>Abimé</label><br>
+					<input type="checkbox" name="motif[]" value="Couleur inexacte"> <label>Couleur inexacte</label><br>
+					<input type="checkbox" name="motif[]" value="Non conforme au site"> <label>Non conforme au site</label><br>
+					<input type="checkbox" name="motif[]" value="autre"> <label>Autre :</label><br> <textarea name="autre"></textarea>
+			</fieldset>
+		
+			<fieldset>
+			<legend>Commentaire</legend>
+			<label>Avez vous un commentaire :</label><br> <textarea name="commentaire" rows=3 cols=50 placeholder="Tapez ici vos commentaires"></textarea>
+			</fieldset>
+		<br>
+			<input type="submit" value="submit" name="Envoyer">
+			<input type="reset" name="Effacer" value="Annuler"/>
+	</fieldset>
+</form>
+</body>
+</html>
+
+

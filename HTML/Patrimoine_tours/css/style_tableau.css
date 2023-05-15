@@ -1,0 +1,77 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    /*border: 2px solid rgb(0, 0, 0);*/
+    max-width: 700px;
+	min-width: 400px;
+  }
+
+  thead th:nth-child(1) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 82, 82);
+  }
+
+  td:first-of-type {
+	text-align: left;
+}
+
+caption{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+}
+
+th, td {
+	border: 1px solid rgb(234,74,98);
+
+}
+td:last-of-type {
+	background-color: rgb(254, 253, 252);
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    /*display: flex;*/
+}
+td:nth-child(2){
+    text-align: center;
+    color: rgb(254, 253, 252);
+    font-size: 20px;
+}
+
+tr:nth-child(1) td:nth-child(2){
+    background-color: rgb(91, 38, 126);
+}
+
+tr:nth-child(2) td:nth-child(2){
+    background-color: rgb(21, 160, 183);
+}
+
+tr:nth-child(3) td:nth-child(2){
+    background-color: rgb(235, 102, 59);
+}
+
+tr:nth-child(4) td:nth-child(2){
+    background-color: rgb(204, 51, 35);
+}
+
+tr:nth-child(5) td:nth-child(2){
+    background-color: rgb(251, 191, 41);
+}
+tr:nth-child(6) td:nth-child(2){
+    background-color: rgb(146, 191, 36);
+}
+#bas{
+    font-style: italic;	
+	text-align: center;
+	border-bottom-style: none;
+	border-left: none;
+	border-right: none;
+
+}
+
+    
+

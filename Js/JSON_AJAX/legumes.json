@@ -1,0 +1,30 @@
+{
+    "legume1": { 
+        "categorie": "légume",
+        "variete": "Bintje",
+        "culture": {
+            "min": "100 jours",
+            "max": "120 jours"
+        },
+        "cuisine": ["Soupe", "Purée", "Frites"]       
+    },
+    "legume2": {
+        "categorie": "légume",
+        "variete": "Bernadette",
+        "culture": {
+            "min": "90 jours",
+            "max": "110 jours"
+        },
+        "cuisine": ["Vapeur", "Salade"]        
+    },
+    "legume3": {
+        "categorie": "légume",
+        "variete": "BF15",
+        "culture": {
+            "min": "80 jours",
+            "max": "100 jours"
+        },
+        "cuisine": ["Vapeur", "Salade"]
+    }
+}
+

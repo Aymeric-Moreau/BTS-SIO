@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/modele/bd.resto.inc.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/getRacine.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/vueListeRestos.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/controleur/rechercheResto.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/vueDetailResto.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/controleur/controleurPrincipal.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/controleur/deconnexion.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/vueResultRecherche.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/modele/authentification.inc.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/controleur/detailResto.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/vueAuthentification.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/pied.html.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/vueRechercheResto.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/vueConfirmationAuth.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/entete.html.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/vue/vueDeconnexion.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/index.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/modele/bd.inc.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/PHP/Restaurent_AM/controleur/listeRestos.php</file>
+        </group>
+    </open-files>
+</project-private>

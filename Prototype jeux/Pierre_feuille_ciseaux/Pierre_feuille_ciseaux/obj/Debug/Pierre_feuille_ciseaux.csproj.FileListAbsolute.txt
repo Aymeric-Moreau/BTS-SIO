@@ -1,0 +1,14 @@
+C:\Users\aymeric.moreau\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\bin\Debug\Pierre_feuille_ciseaux.exe.config
+C:\Users\aymeric.moreau\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\bin\Debug\Pierre_feuille_ciseaux.exe
+C:\Users\aymeric.moreau\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\bin\Debug\Pierre_feuille_ciseaux.pdb
+C:\Users\aymeric.moreau\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.csprojAssemblyReference.cache
+C:\Users\aymeric.moreau\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.exe
+C:\Users\aymeric.moreau\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.pdb
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\bin\Debug\Pierre_feuille_ciseaux.exe.config
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\bin\Debug\Pierre_feuille_ciseaux.exe
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\bin\Debug\Pierre_feuille_ciseaux.pdb
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.exe
+C:\Users\aymer\source\repos\Pierre_feuille_ciseaux\Pierre_feuille_ciseaux\obj\Debug\Pierre_feuille_ciseaux.pdb

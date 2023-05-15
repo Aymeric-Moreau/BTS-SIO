@@ -1,0 +1,81 @@
+<!--Aymeric Moreau 03/02/2023-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+</head>
+<body>
+    <div id="zoneResultat"></div>
+    
+
+
+    <script   src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"> </script>
+       <script>
+       $(function (){
+            $.ajax({
+                url:'http://localhost/json_javascript/legumes.json',
+                type:'GET',
+                dataType:'json',
+                success: function (data){
+                    var titre = document.createElement('h1');
+                        titre.textContent = "Les Pommes de Terre";
+                        $("#zoneResultat").append(titre);
+
+                    $.each(data, function(key, value){
+                        var titreh2 = document.createElement('h2');
+                        titreh2.textContent = "Variete : " + value.variete;
+                        $("#zoneResultat").append(titreh2);
+
+                        var spanCategorie = document.createElement('span');
+                        spanCategorie.textContent = "Categorie : " + value.categorie;
+                        $("#zoneResultat").append(spanCategorie);
+
+                        var titreh3 = document.createElement('h3');
+                        titreh3.textContent = "Les recette : ";
+                        $("#zoneResultat").append(titreh3);
+
+                        var spanRecette = document.createElement('span');
+                        spanRecette.textContent = value.cuisine;
+                        $("#zoneResultat").append(spanRecette);
+
+
+                    });
+
+
+
+                },
+                error: function(){
+                    alert("erreur")
+                }
+
+
+
+
+
+
+
+            });
+
+
+
+        });
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+    
+</body>
+</html>

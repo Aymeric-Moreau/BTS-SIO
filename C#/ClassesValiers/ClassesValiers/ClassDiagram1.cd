@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ClassesValiers.Categorie">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAEAAAAA=</HashCode>
+      <FileName>Categorie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesValiers.Cavalier">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAgIAIAACAAAAAAAQBAAAsIA=</HashCode>
+      <FileName>Cavalier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="categorieCavalier" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassesValiers.CavalierAdulte">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>CavalierAdulte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesValiers.CavalierEnfant">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIEAAAgAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CavalierEnfant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesValiers.Cheval">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAAAAAAAAAACAAAAAAAAAQAAAIEAAAAAAAAAA=</HashCode>
+      <FileName>Cheval.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesValiers.Epreuve">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAgAAAAACAAAAAACAAgAAEAAAABAAAACAgAAAAAA=</HashCode>
+      <FileName>Epreuve.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="categorieEpreuve" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="mesEngages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

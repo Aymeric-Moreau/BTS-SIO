@@ -1,0 +1,12 @@
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\TP_Emmaus\TP_Emmaus\bin\Debug\TP_Emmaus.exe.config
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\TP_Emmaus\TP_Emmaus\bin\Debug\TP_Emmaus.exe
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\TP_Emmaus\TP_Emmaus\bin\Debug\TP_Emmaus.pdb
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\TP_Emmaus\TP_Emmaus\obj\Debug\TP_Emmaus.csprojAssemblyReference.cache
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\TP_Emmaus\TP_Emmaus\obj\Debug\TP_Emmaus.exe
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\TP_Emmaus\TP_Emmaus\obj\Debug\TP_Emmaus.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\TP_Emmaus\TP_Emmaus\bin\Debug\TP_Emmaus.exe.config
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\TP_Emmaus\TP_Emmaus\bin\Debug\TP_Emmaus.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\TP_Emmaus\TP_Emmaus\bin\Debug\TP_Emmaus.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\TP_Emmaus\TP_Emmaus\obj\Debug\TP_Emmaus.csprojAssemblyReference.cache
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\TP_Emmaus\TP_Emmaus\obj\Debug\TP_Emmaus.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\TP_Emmaus\TP_Emmaus\obj\Debug\TP_Emmaus.pdb

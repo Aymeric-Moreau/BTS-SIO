@@ -1,0 +1,10 @@
+1;La tortue rouge;80;animation
+2;La chute de Londres;99;action
+3;La fille du train;113;thriller
+4;Moi, Daniel Blake;101;drame
+5;Ballerina;90;animation
+6;La saison des femmes;117;drame
+7;Julieta;100;drame
+8;13 Hours;144;action
+9;La jeune fille sans mains;73;animation
+10;Un petit boulot;97;comedie

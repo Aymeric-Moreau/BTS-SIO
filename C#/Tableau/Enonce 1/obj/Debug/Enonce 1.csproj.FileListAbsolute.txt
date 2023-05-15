@@ -1,0 +1,8 @@
+C:\Users\aymer\source\repos\Tableau\Enonce 1\bin\Debug\Enonce 1.exe.config
+C:\Users\aymer\source\repos\Tableau\Enonce 1\bin\Debug\Enonce 1.exe
+C:\Users\aymer\source\repos\Tableau\Enonce 1\bin\Debug\Enonce 1.pdb
+C:\Users\aymer\source\repos\Tableau\Enonce 1\obj\Debug\Enonce 1.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Tableau\Enonce 1\obj\Debug\Enonce 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Tableau\Enonce 1\obj\Debug\Enonce 1.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Tableau\Enonce 1\obj\Debug\Enonce 1.exe
+C:\Users\aymer\source\repos\Tableau\Enonce 1\obj\Debug\Enonce 1.pdb

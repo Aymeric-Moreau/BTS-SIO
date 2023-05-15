@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AuX6UhyuzxOTaI9WvUIogVK+S6JdSPwOXt5UxMips0kAyoIRpO04wT/+twyX3gEUI9NiIYyxKDtp8CMHGPlqmw==",
+  "success": true,
+  "projectFilePath": "C:\\xampp\\htdocs\\mes_site_web\\C#\\SolutionHeritage\\ClassesHeritage\\ClassesHeritage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aymer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aymer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

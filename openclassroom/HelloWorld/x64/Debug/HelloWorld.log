@@ -1,0 +1,3 @@
+﻿  Cours1.cpp
+C:\Users\aymer\source\repos\openclassroom cour js, java et C++\HelloWorld\Cours1.cpp(29,9): warning C4101: 'jsp' : variable locale non référencée
+  HelloWorld.vcxproj -> C:\Users\aymer\source\repos\openclassroom cour js, java et C++\HelloWorld\x64\Debug\HelloWorld.exe

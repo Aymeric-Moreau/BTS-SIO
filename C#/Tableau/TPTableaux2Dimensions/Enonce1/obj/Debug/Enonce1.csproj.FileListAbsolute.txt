@@ -1,0 +1,14 @@
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\Tableau\TPTableaux2Dimensions\Enonce1\bin\Debug\Enonce1.exe.config
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\Tableau\TPTableaux2Dimensions\Enonce1\bin\Debug\Enonce1.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\Tableau\TPTableaux2Dimensions\Enonce1\bin\Debug\Enonce1.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.csprojAssemblyReference.cache
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.pdb
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\bin\Debug\Enonce1.exe.config
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\bin\Debug\Enonce1.exe
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\bin\Debug\Enonce1.pdb
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.exe
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce1\obj\Debug\Enonce1.pdb

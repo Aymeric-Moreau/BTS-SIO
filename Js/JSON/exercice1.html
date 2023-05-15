@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2 Json Aymeric Moreau</title>
+</head>
+<body id="leg1">
+    
+
+
+    <script>
+        var legume1 ={
+            "categorie":"legume",
+            "variete":"Bintje",
+            "culture":{
+                "min": "100 jours",
+                "max":"120 jours"
+
+            },
+            "cuisine": ["soupe","purèe","Frites"],
+            "url":"https://fr.wikipedia.org/wiki/Bintje"
+        };
+        // récupération de l'id html leg1
+        var leg1 = document.getElementById('leg1');
+
+        // création de varible pour les élement html 
+        var legh2 = document.createElement('h2');
+        var legp1 = document.createElement('p');
+        var legp2 = document.createElement('p');
+
+        // on attribue du texte dans les variable atribu html
+        legh2.textContent ='La pomme de terre';
+        legp1.textContent ='Variete : ' + legume1.variete;
+        legp2.textContent ='la durée est entre : ' + legume1.culture.max + ' et ' + legume1.culture.min + 'jours';
+
+        // on ajoute les variable a la page html
+        leg1.appendChild(legh2);
+        leg1.appendChild(legp1);
+        leg1.appendChild(legp2);
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

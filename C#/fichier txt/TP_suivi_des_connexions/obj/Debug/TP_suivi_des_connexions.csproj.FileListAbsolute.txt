@@ -1,0 +1,8 @@
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\bin\Debug\TP_suivi_des_connexions.exe.config
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\bin\Debug\TP_suivi_des_connexions.exe
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\bin\Debug\TP_suivi_des_connexions.pdb
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\obj\Debug\TP_suivi_des_connexions.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\obj\Debug\TP_suivi_des_connexions.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\obj\Debug\TP_suivi_des_connexions.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\obj\Debug\TP_suivi_des_connexions.exe
+C:\Users\aymer\source\repos\fichier txt\TP_suivi_des_connexions\obj\Debug\TP_suivi_des_connexions.pdb

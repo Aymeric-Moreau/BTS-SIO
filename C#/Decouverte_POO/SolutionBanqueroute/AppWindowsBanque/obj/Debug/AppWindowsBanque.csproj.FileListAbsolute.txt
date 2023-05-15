@@ -1,0 +1,15 @@
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\bin\Debug\AppWindowsBanque.exe.config
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\bin\Debug\AppWindowsBanque.exe
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\bin\Debug\AppWindowsBanque.pdb
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\bin\Debug\LibBanque.dll
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\bin\Debug\LibBanque.pdb
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\bin\Debug\LibBanque.xml
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.FrmBanque.resources
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.Properties.Resources.resources
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.csproj.GenerateResource.cache
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.csproj.CopyComplete
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.exe
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\AppWindowsBanque\obj\Debug\AppWindowsBanque.pdb

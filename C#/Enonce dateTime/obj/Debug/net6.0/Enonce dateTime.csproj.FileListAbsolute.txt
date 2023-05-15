@@ -1,0 +1,15 @@
+C:\Users\aymer\source\repos\Enonce dateTime\bin\Debug\net6.0\Enonce dateTime.exe
+C:\Users\aymer\source\repos\Enonce dateTime\bin\Debug\net6.0\Enonce dateTime.deps.json
+C:\Users\aymer\source\repos\Enonce dateTime\bin\Debug\net6.0\Enonce dateTime.runtimeconfig.json
+C:\Users\aymer\source\repos\Enonce dateTime\bin\Debug\net6.0\Enonce dateTime.dll
+C:\Users\aymer\source\repos\Enonce dateTime\bin\Debug\net6.0\Enonce dateTime.pdb
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.AssemblyInfoInputs.cache
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.AssemblyInfo.cs
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.dll
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\refint\Enonce dateTime.dll
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.pdb
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\Enonce dateTime.genruntimeconfig.cache
+C:\Users\aymer\source\repos\Enonce dateTime\obj\Debug\net6.0\ref\Enonce dateTime.dll

@@ -1,0 +1,21 @@
+D:\SLAM2\cas Kes\Kes\Tests\bin\Debug\Tests.exe.config
+D:\SLAM2\cas Kes\Kes\Tests\bin\Debug\Tests.exe
+D:\SLAM2\cas Kes\Kes\Tests\bin\Debug\Tests.pdb
+D:\SLAM2\cas Kes\Kes\Tests\bin\Debug\Kes.dll
+D:\SLAM2\cas Kes\Kes\Tests\bin\Debug\Kes.pdb
+D:\SLAM2\cas Kes\Kes\Tests\obj\Debug\Tests.csprojAssemblyReference.cache
+D:\SLAM2\cas Kes\Kes\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+D:\SLAM2\cas Kes\Kes\Tests\obj\Debug\Tests.csproj.CopyComplete
+D:\SLAM2\cas Kes\Kes\Tests\obj\Debug\Tests.exe
+D:\SLAM2\cas Kes\Kes\Tests\obj\Debug\Tests.pdb
+C:\Users\aymer\source\repos\Kes\Tests\bin\Debug\Tests.exe.config
+C:\Users\aymer\source\repos\Kes\Tests\bin\Debug\Tests.exe
+C:\Users\aymer\source\repos\Kes\Tests\bin\Debug\Tests.pdb
+C:\Users\aymer\source\repos\Kes\Tests\bin\Debug\Kes.dll
+C:\Users\aymer\source\repos\Kes\Tests\bin\Debug\Kes.pdb
+C:\Users\aymer\source\repos\Kes\Tests\obj\Debug\Tests.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Kes\Tests\obj\Debug\Tests.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Kes\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Kes\Tests\obj\Debug\Tests.csproj.CopyComplete
+C:\Users\aymer\source\repos\Kes\Tests\obj\Debug\Tests.exe
+C:\Users\aymer\source\repos\Kes\Tests\obj\Debug\Tests.pdb

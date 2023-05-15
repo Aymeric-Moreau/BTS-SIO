@@ -1,0 +1,53 @@
+body {
+    background-color: rgb( 234, 236, 238 );
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.paragrafe {
+    font-size: 80%;
+    text-indent: 1%;
+    color: rgb( 28, 40, 51 );
+}
+
+h2 {
+    color: rgb( 27, 38, 49 );
+}
+
+#debut {
+    color: rgb( 77, 86, 86 );
+}
+em {
+    color: rgb( 10, 39, 2 );
+}
+
+strong {
+    color: rgb( 75, 24, 3 );
+}
+img {
+    float : right;
+    margin: 10px;
+}
+a {
+    text-decoration: none ;
+    background-color: #fff ;
+    }
+a:link {
+    color: black ;
+    }
+a:visited {
+    color: black;
+    /*background-color: #000 ;*/
+    }
+li {
+    list-style: none ;
+    display: inline-block ;
+    width: 140px ;
+    border: 1px solid #000 ;
+    margin-right: 10px ;
+    padding: 3px ;
+    background-color: white ;
+    text-align: center ;}
+
+    

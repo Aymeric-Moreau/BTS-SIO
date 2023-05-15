@@ -1,0 +1,15 @@
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.AssemblyInfoInputs.cache
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.AssemblyInfo.cs
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\bin\Debug\net6.0\boucle.exe
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\bin\Debug\net6.0\boucle.deps.json
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\bin\Debug\net6.0\boucle.runtimeconfig.json
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\bin\Debug\net6.0\boucle.dll
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\bin\Debug\net6.0\boucle.pdb
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.dll
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\refint\boucle.dll
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.pdb
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\boucle.genruntimeconfig.cache
+C:\Users\aymer\source\repos\Enonce 4boucle\boucle\obj\Debug\net6.0\ref\boucle.dll

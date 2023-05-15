@@ -1,0 +1,6 @@
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\enonce dictionnaire\bin\Debug\enonce dictionnaire.exe.config
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\enonce dictionnaire\bin\Debug\enonce dictionnaire.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\enonce dictionnaire\bin\Debug\enonce dictionnaire.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\enonce dictionnaire\obj\Debug\enonce dictionnaire.csprojAssemblyReference.cache
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\enonce dictionnaire\obj\Debug\enonce dictionnaire.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\dictionnaire\enonce dictionnaire\obj\Debug\enonce dictionnaire.pdb

@@ -1,0 +1,8 @@
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\bin\Debug\Enonce dictionnaire.exe.config
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\bin\Debug\Enonce dictionnaire.exe
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\bin\Debug\Enonce dictionnaire.pdb
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\obj\Debug\Enonce dictionnaire.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\obj\Debug\Enonce dictionnaire.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\obj\Debug\Enonce dictionnaire.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\obj\Debug\Enonce dictionnaire.exe
+C:\Users\aymer\source\repos\dictionaire\Enonce dictionnaire\obj\Debug\Enonce dictionnaire.pdb

@@ -1,0 +1,37 @@
+fieldset legend {
+    background-color: crimson;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    
+}
+
+fieldset{
+
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+
+input,textarea{
+    background-color: rgba(181,228,172,255);
+    margin-right: 10px;
+    
+    
+}
+
+label{
+    color: #3d4a3a;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input,#dataliste{
+    float: right; 
+}
+select, fieldset input{
+    float: none;
+}
+input[type=submit],input[type=reset]{
+    cursor: pointer;
+}

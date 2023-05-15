@@ -1,0 +1,11 @@
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\bin\Debug\WfCalculs.exe.config
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\bin\Debug\WfCalculs.exe
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\bin\Debug\WfCalculs.pdb
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.FrmCalculs.resources
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.Properties.Resources.resources
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.csproj.GenerateResource.cache
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.exe
+C:\Users\aymer\source\repos\interface graphique\WfCalculs\WfCalculs\obj\Debug\WfCalculs.pdb

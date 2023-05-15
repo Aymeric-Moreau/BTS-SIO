@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ClassesMetiers.Constructeur">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IEAAACAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constructeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesMetiers.Piece">
+    <Position X="5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAEEAAAAAAAAIIAAACAAAAAAAAAAAIA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesMetiers.PieceAgree">
+    <Position X="0.75" Y="4.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAY=</HashCode>
+      <FileName>PieceAgree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="leConstructeur" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassesMetiers.PieceNonAgree">
+    <Position X="6.75" Y="4" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABACAEAAAAAAAAAAAAIAAAAACAAAAAgAA=</HashCode>
+      <FileName>PieceNonAgree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesMetiers.Magasin">
+    <Position X="9.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAAAABAAAAAAQAAACAAAEAAAIAAARCA=</HashCode>
+      <FileName>Magasin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="lesPieces" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

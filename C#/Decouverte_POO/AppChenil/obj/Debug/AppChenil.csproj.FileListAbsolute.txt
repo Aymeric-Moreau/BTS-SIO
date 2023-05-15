@@ -1,0 +1,11 @@
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\bin\Debug\AppChenil.exe.config
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\bin\Debug\AppChenil.exe
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\bin\Debug\AppChenil.pdb
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\bin\Debug\libAnimalerie.dll
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\bin\Debug\libAnimalerie.xml
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\obj\Debug\AppChenil.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\obj\Debug\AppChenil.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\obj\Debug\AppChenil.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\obj\Debug\AppChenil.csproj.CopyComplete
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\obj\Debug\AppChenil.exe
+C:\Users\aymer\source\repos\Decouverte_POO\AppChenil\obj\Debug\AppChenil.pdb

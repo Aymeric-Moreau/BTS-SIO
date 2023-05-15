@@ -1,0 +1,11 @@
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\bin\Debug\MaWinListe.exe.config
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\bin\Debug\MaWinListe.exe
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\bin\Debug\MaWinListe.pdb
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.FrmListe.resources
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.Properties.Resources.resources
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.csproj.GenerateResource.cache
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.exe
+C:\Users\aymer\source\repos\interface graphique\MaWinListe\obj\Debug\MaWinListe.pdb

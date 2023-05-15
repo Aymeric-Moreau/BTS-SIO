@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibAnimalerie</name>
+    </assembly>
+    <members>
+        <member name="T:LibAnimalerie.Animal">
+            <summary>
+            Représente un animal
+            </summary>
+        </member>
+        <member name="P:LibAnimalerie.Animal.Nom">
+            <summary>
+            Obtient ou définit le nom d'un animal 
+            </summary>
+        </member>
+        <member name="P:LibAnimalerie.Animal.Espece">
+            <summary>
+            Obtient ou définit l'espèce d'un animal
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Animal.#ctor(System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe LibAnimalerie.Animal
+            </summary>
+            <param name="sonNom">Nom de l'animal (Ex : "Garfield")</param>
+            <param name="sonEspece">Espèce de l'animal (Ex : "Chat")</param>
+        </member>
+        <member name="M:LibAnimalerie.Animal.SePresenter">
+            <summary>
+            Fait se présenter l'animal
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Animal.Dormir">
+            <summary>
+            Fait dormir l'animal
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Animal.Parler(System.String)">
+            <summary>
+            Fait parler l'animal
+            </summary>
+            <param name="leCri"></param>
+        </member>
+        <member name="M:LibAnimalerie.Animal.Manger">
+            <summary>
+            Fait manger l'animal
+            </summary>
+        </member>
+        <member name="T:LibAnimalerie.Chien">
+            <summary>
+            Représente un Chien de race (hérite de la LibAnimalerie.Animal)
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Chien.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Initialise une nouvelle instance de la classe LibAnimalerie.Chien
+            </summary>
+            <param name="sonNom">Le nom du chien</param>
+            <param name="saRace">La race du chien</param>
+            <param name="saTaille">La taille du chien en cm (>=10). Si la taille fournie est inférieure à 10, le chien aura une taille de 10</param>
+            <remarks>Un chien est un animal dont l'espèce est "Chien"</remarks>
+        </member>
+        <member name="P:LibAnimalerie.Chien.Race">
+            <summary>
+            Obtient la race du chien
+            </summary>
+        </member>
+        <member name="P:LibAnimalerie.Chien.Taille">
+            <summary>
+            Obtient ou modifie la taille du chien
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Chien.Aboyer">
+            <summary>
+            Fait aboyer le chien (en fonction de sa taille)
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Chien.SePresenter">
+            <summary>
+            Fait se présenter le chien
+            </summary>
+        </member>
+        <member name="T:LibAnimalerie.Menagerie">
+            <summary>
+            Représente une ménagerie, laquelle peut "héberger" un certain nombre d'animaux
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Menagerie.#ctor">
+            <summary>
+            Initialise une nouvelle instance de la classe LibAnimalerie.Menagerie
+            </summary>
+        </member>
+        <member name="P:LibAnimalerie.Menagerie.NombreAnimaux">
+            <summary>
+            Obtient le nombre d'animaux présents dans la ménagerie
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Menagerie.Presenter">
+            <summary>
+            Présente l'ensemble des animaux de la ménagerie
+            </summary>
+        </member>
+        <member name="M:LibAnimalerie.Menagerie.Arriver(LibAnimalerie.Animal)">
+            <summary>
+            Enregistre l'arrivée d'un nouvel animal dans la ménagerie
+            </summary>
+            <param name="unAnimal">L'animal (l'objet de type animal) à ajouter à la ménagerie</param>
+        </member>
+        <member name="M:LibAnimalerie.Menagerie.Partir(LibAnimalerie.Animal)">
+            <summary>
+            Enregistre le départ d'un animal de la ménagerie
+            </summary>
+            <param name="unAnimal"></param>
+        </member>
+    </members>
+</doc>

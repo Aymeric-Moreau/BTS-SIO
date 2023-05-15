@@ -1,0 +1,12 @@
+C:\Users\aymer\source\repos\ClassesValiers\ClassesValiers\bin\Debug\ClassesValiers.dll
+C:\Users\aymer\source\repos\ClassesValiers\ClassesValiers\bin\Debug\ClassesValiers.pdb
+C:\Users\aymer\source\repos\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.dll
+C:\Users\aymer\source\repos\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.pdb
+C:\xampp\htdocs\mes_site_web\C#\ClassesValiers\ClassesValiers\bin\Debug\ClassesValiers.dll
+C:\xampp\htdocs\mes_site_web\C#\ClassesValiers\ClassesValiers\bin\Debug\ClassesValiers.pdb
+C:\xampp\htdocs\mes_site_web\C#\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.csproj.AssemblyReference.cache
+C:\xampp\htdocs\mes_site_web\C#\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\mes_site_web\C#\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.dll
+C:\xampp\htdocs\mes_site_web\C#\ClassesValiers\ClassesValiers\obj\Debug\ClassesValiers.pdb

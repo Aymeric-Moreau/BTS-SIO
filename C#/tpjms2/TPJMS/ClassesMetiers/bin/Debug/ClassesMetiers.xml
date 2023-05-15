@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassesMetiers</name>
+    </assembly>
+    <members>
+        <member name="T:ClassesMetiers.Constructeur">
+            <summary>
+            Classe qui permet de définir les caractéristiques et le comportement 
+            d'un objet de type Constructeur
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.Constructeur.#ctor(System.String,System.String)">
+            <summary>
+            constructeur de la classe 
+            </summary>
+            <param name="nom">nom du constructeur</param>
+            <param name="spe">spécialité du constructeur</param>
+        </member>
+        <member name="P:ClassesMetiers.Constructeur.NomConstructeur">
+            <summary>
+            Retourne le nom du constructeur
+            </summary>
+        </member>
+        <member name="P:ClassesMetiers.Constructeur.Specialite">
+            <summary>
+            Retourne la spécialité du constructeur
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.Constructeur.ToString">
+            <summary>
+            retourne les caractéristiques du constructeur
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassesMetiers.Magasin">
+            <summary>
+            Classe qui permet de définir les caractéristiques et le comportement
+            d'un objet de type Magasin
+            </summary>
+        </member>
+        <member name="P:ClassesMetiers.Magasin.ResponsableMagasin">
+            <summary>
+            Retourne le nom et prénom du responsable du magasin
+            Modifie le nom et prénom du responsable du magasin
+            </summary>
+        </member>
+        <member name="P:ClassesMetiers.Magasin.LesPieces">
+            <summary>
+            Retourne la liste des pieces
+            Modifie la liste de pièces
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.Magasin.AjouterPiece(ClassesMetiers.Piece)">
+            <summary>
+            Permet d'ajouter une pièce à la collection des pièces
+            </summary>
+            <param name="e">une pièce</param>
+        </member>
+        <member name="M:ClassesMetiers.Magasin.Rebuter(ClassesMetiers.PieceNonAgree)">
+            <summary>
+            L'état de la pièce passée en paramètre prend la valeur ROUGE
+            </summary>
+            <param name="p">piece non agrée</param>
+        </member>
+        <member name="M:ClassesMetiers.Magasin.Reviser(System.Int32)">
+            <summary>
+            L'état passe à la valeur ORANGE
+            pour toutes les pièces non agréées qui sont à l'état VERT
+            et qui ont un nombre d'heures d'utilisation égal ou supérieur à la valeur du paramètre
+            </summary>
+            <param name="nbH">nombre d'heures</param>
+        </member>
+        <member name="M:ClassesMetiers.Magasin.Supprimer(System.String)">
+            <summary>
+            Permet de supprimer de la collection la pièce dont le numéro de série est passé en paramètre
+            </summary>
+            <param name="n">numéro de série de la pièce</param>
+        </member>
+        <member name="M:ClassesMetiers.Magasin.lesPiecesAgrees">
+            <summary>
+            Retourne la liste des pièces agréées
+            </summary>
+            <returns>liste des pièces agréées</returns>
+        </member>
+        <member name="M:ClassesMetiers.Magasin.lesPiecesNonAgreees(System.String)">
+            <summary>
+            Retourne la liste des pièces non agréées relatives à l'état passé en paramètre
+            </summary>
+            <param name="etat">état souhaité</param>
+            <returns>Retourne la liste des pièces non agréées relatives à l'état passé en paramètre</returns>
+        </member>
+        <member name="T:ClassesMetiers.Piece">
+            <summary>
+            Classe qui permet de définir les caractéristiques et le comportement 
+            d'un objet de type Piece
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.Piece.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            constructeur de la classe
+            </summary>
+            <param name="ns">numéro de série</param>
+            <param name="l">libellé de la pièce</param>
+            <param name="nb">nombre d'heures de fonctionnement</param>
+        </member>
+        <member name="P:ClassesMetiers.Piece.NumSerie">
+            <summary>
+            Retourne le numéro de série
+            </summary>
+        </member>
+        <member name="P:ClassesMetiers.Piece.LibellePiece">
+            <summary>
+            Retourne le libéllé de la pièce
+            </summary>
+        </member>
+        <member name="P:ClassesMetiers.Piece.NbHeures">
+            <summary>
+            Retourne le nombre d'heures de fonctionnement
+            Modifie la valeur de la propriété nbHeures
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.Piece.ToString">
+            <summary>
+            retourne les caracteristiques d'une piece
+            </summary>
+        </member>
+        <member name="T:ClassesMetiers.PieceAgree">
+            <summary>
+            Classe qui permet de définir les caractéristiques et le comportement spécifiques
+            d'un objet de type PieceAgree
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.PieceAgree.#ctor(System.String,System.String,System.Int32,System.DateTime,ClassesMetiers.Constructeur)">
+            <summary>
+            constructeur de la classe
+            </summary>
+            <param name="ns">numéro de série de la pièce</param>
+            <param name="lib">libellé de la pièce</param>
+            <param name="nb">nombre d'heures de fonctionnement</param>
+            <param name="d">date de l'agrément</param>
+            <param name="c">Constructeur de la pièce</param>
+        </member>
+        <member name="P:ClassesMetiers.PieceAgree.DateAgrement">
+            <summary>
+            Retourne la date d'agrément
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.PieceAgree.ToString">
+            <summary>
+            retourne les caracteristiques d'une piece agréée
+            </summary>
+        </member>
+        <member name="T:ClassesMetiers.PieceNonAgree">
+            <summary>
+            Classe qui permet de définir les caractéristiques et le comportement spécifiques
+            d'un objet de type PieceNonAgree
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.PieceNonAgree.#ctor(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            constructeur de la classe
+            </summary>
+            <param name="ns">numéro de série</param>
+            <param name="lib">libellé de la pièce</param>
+            <param name="nb">nombre d'heures de fonctionnement</param>
+            <param name="e">Etat de la pièce</param>
+        </member>
+        <member name="P:ClassesMetiers.PieceNonAgree.Etat">
+            <summary>
+            Retourne l'état de la pièce
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.PieceNonAgree.SetVert">
+            <summary>
+            passe l'etat à VERT
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.PieceNonAgree.SetRouge">
+            <summary>
+            passe l'etat à ROUGE
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.PieceNonAgree.SetOrange">
+            <summary>
+            passe l'etat à ORANGE
+            </summary>
+        </member>
+        <member name="M:ClassesMetiers.PieceNonAgree.ToString">
+            <summary>
+            retourne les caracteristiques d'une piece non agree
+            </summary>
+        </member>
+    </members>
+</doc>

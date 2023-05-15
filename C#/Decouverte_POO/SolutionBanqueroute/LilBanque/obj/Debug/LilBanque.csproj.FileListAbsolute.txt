@@ -1,0 +1,7 @@
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\LilBanque\bin\Debug\LilBanque.xml
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\LilBanque\bin\Debug\LilBanque.dll
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\LilBanque\bin\Debug\LilBanque.pdb
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\LilBanque\obj\Debug\LilBanque.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\LilBanque\obj\Debug\LilBanque.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\LilBanque\obj\Debug\LilBanque.dll
+C:\Users\aymer\source\repos\Decouverte_POO\SolutionBanqueroute\LilBanque\obj\Debug\LilBanque.pdb

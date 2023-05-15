@@ -1,0 +1,12 @@
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\obj\Debug\AppConsolebanque.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\obj\Debug\AppConsolebanque.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\obj\Debug\AppConsolebanque.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\bin\Debug\AppConsolebanque.exe.config
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\bin\Debug\AppConsolebanque.exe
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\bin\Debug\AppConsolebanque.pdb
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\bin\Debug\LibBanque.dll
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\bin\Debug\LibBanque.pdb
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\bin\Debug\LibBanque.xml
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\obj\Debug\AppConsolebanque.csproj.CopyComplete
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\obj\Debug\AppConsolebanque.exe
+C:\Users\aymer\source\repos\Decouverte_POO\AppConsolebanque\AppConsolebanque\obj\Debug\AppConsolebanque.pdb

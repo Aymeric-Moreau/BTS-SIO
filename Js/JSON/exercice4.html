@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2 Json Aymeric Moreau</title>
+</head>
+<body id="leg1">
+    
+
+
+    <script>
+        var legume1 ={
+            "categorie":"legume",
+            "variete":"Bintje",
+            "culture":{
+                "min": "100 jours",
+                "max":"120 jours"
+
+            },
+            "cuisine": ["soupe","purèe","Frites"],
+            "url":"https://fr.wikipedia.org/wiki/Bintje"
+        };
+        // récupération de l'id html leg1
+        var leg1 = document.getElementById('leg1');
+
+        // création de varible pour les élement html 
+        var legumeh = document.createElement('h2');
+        var legumep1 = document.createElement('p');
+        var legumep2 = document.createElement('p');
+        var legumep1a = document.createElement('a');
+        var lientext = document.createTextNode(legume1.variete);
+
+        //on définit la propriéter de la variable
+        legumep1a.href = legume1.url;
+
+        // on attribue du texte dans les variable atribu html
+        legumeh.textContent ='La pomme de terre';
+        legumep1.textContent ='Variete : ' ;//+ legume1.variete;
+        legumep2.textContent ='la durée est entre : ' + legume1.culture.max + ' et ' + legume1.culture.min + 'jours';
+        legumep1a.title = 'wikipedia';
+        
+
+        // on ajoute les variable a la page html
+        leg1.appendChild(legumeh);
+        leg1.appendChild(legumep1);
+        leg1.appendChild(legumep2);
+        legumep1a.appendChild(lientext);
+        legumep1.appendChild(legumep1a);
+
+        //création des élément select 
+        var listRecette = document.createElement('select');
+        listRecette.setAttribute('id','name');
+        listRecette.setAttribute('name','recette');
+
+        legume1.cuisine.forEach(function(cuisine){
+            var opt =document.createElement('option');
+            opt.appendChild(document.createTextNode(cuisine));
+            opt.setAttribute('value',cuisine);
+            listRecette.appendChild(opt);
+
+        });
+        leg1.appendChild(listRecette);
+
+
+
+    </script>
+</body>
+</html>

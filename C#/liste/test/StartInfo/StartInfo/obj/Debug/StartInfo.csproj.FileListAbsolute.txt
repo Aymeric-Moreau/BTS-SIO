@@ -1,0 +1,12 @@
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\StartInfo\StartInfo\bin\Debug\StartInfo.exe.config
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\StartInfo\StartInfo\bin\Debug\StartInfo.exe
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\StartInfo\StartInfo\bin\Debug\StartInfo.pdb
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\StartInfo\StartInfo\obj\Debug\StartInfo.csprojAssemblyReference.cache
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\StartInfo\StartInfo\obj\Debug\StartInfo.exe
+D:\annee2022_2023\SIO1\Bloc1-Dev\Projets_Visual_Studio\StartInfo\StartInfo\obj\Debug\StartInfo.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\liste\StartInfo\StartInfo\bin\Debug\StartInfo.exe.config
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\liste\StartInfo\StartInfo\bin\Debug\StartInfo.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\liste\StartInfo\StartInfo\bin\Debug\StartInfo.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\liste\StartInfo\StartInfo\obj\Debug\StartInfo.csprojAssemblyReference.cache
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\liste\StartInfo\StartInfo\obj\Debug\StartInfo.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\liste\StartInfo\StartInfo\obj\Debug\StartInfo.pdb

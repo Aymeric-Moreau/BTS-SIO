@@ -1,0 +1,11 @@
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\bin\Debug\AppAnimalerie.exe.config
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\bin\Debug\AppAnimalerie.exe
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\bin\Debug\AppAnimalerie.pdb
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\bin\Debug\libAnimalerie.dll
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\bin\Debug\libAnimalerie.xml
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\obj\Debug\AppAnimalerie.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\obj\Debug\AppAnimalerie.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\obj\Debug\AppAnimalerie.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\obj\Debug\AppAnimalerie.csproj.CopyComplete
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\obj\Debug\AppAnimalerie.exe
+C:\Users\aymer\source\repos\Decouverte_POO\AppAnimalerie\obj\Debug\AppAnimalerie.pdb

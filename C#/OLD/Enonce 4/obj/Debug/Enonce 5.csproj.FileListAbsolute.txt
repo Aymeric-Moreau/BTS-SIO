@@ -1,0 +1,6 @@
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\conditionnelle\enonce 2\Enonce 2 conditionnelle\Enonce 4\bin\Debug\Enonce 4.exe.config
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\conditionnelle\enonce 2\Enonce 2 conditionnelle\Enonce 4\bin\Debug\Enonce 4.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\conditionnelle\enonce 2\Enonce 2 conditionnelle\Enonce 4\bin\Debug\Enonce 4.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\conditionnelle\enonce 2\Enonce 2 conditionnelle\Enonce 4\obj\Debug\Enonce 4.exe
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\conditionnelle\enonce 2\Enonce 2 conditionnelle\Enonce 4\obj\Debug\Enonce 4.pdb
+C:\annee2022_2023\SIO1\Bloc1-Dev\Projects_Visual_Studio\conditionnelle\enonce 2\Enonce 2 conditionnelle\Enonce 4\obj\Debug\Enonce 5.csprojAssemblyReference.cache

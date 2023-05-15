@@ -1,0 +1,8 @@
+C:\Users\aymer\source\repos\morpion\bin\Debug\morpion.exe.config
+C:\Users\aymer\source\repos\morpion\bin\Debug\morpion.exe
+C:\Users\aymer\source\repos\morpion\bin\Debug\morpion.pdb
+C:\Users\aymer\source\repos\morpion\obj\Debug\morpion.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\morpion\obj\Debug\morpion.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\morpion\obj\Debug\morpion.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\morpion\obj\Debug\morpion.exe
+C:\Users\aymer\source\repos\morpion\obj\Debug\morpion.pdb

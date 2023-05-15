@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibBanque</name>
+    </assembly>
+    <members>
+        <member name="P:libBanque.CompteBancaires.NumCompte">
+            <summary>
+            Obtient ou modifie le numéro du compte
+            </summary>
+        </member>
+        <member name="P:libBanque.CompteBancaires.NomTitulaire">
+            <summary>
+            Obtien ou modifie le nom du titulaire
+            </summary>
+        </member>
+        <member name="P:libBanque.CompteBancaires.SoldeCompte">
+            <summary>
+            obtien le solde du compte
+            </summary>
+        </member>
+        <member name="M:libBanque.CompteBancaires.#ctor(System.String,System.String)">
+            <summary>
+            Initialise une nouvelle instance de la classe CompteBancaire
+            </summary>
+            <param name="sonNumero"></param>
+            <param name="sonTitulaire"></param>
+            <remarks>Le solde sera initialisé a 0</remarks>
+        </member>
+        <member name="M:libBanque.CompteBancaires.#ctor(System.String,System.String,System.Decimal)">
+            <summary>
+            Initialise une nouvelle instance de la classe CompteBancaire avec un solde en plus
+            </summary>
+            <param name="sonNumero"></param>
+            <param name="sonTitulaire"></param>
+            <param name="solde"></param>
+        </member>
+        <member name="M:libBanque.CompteBancaires.CrediterCompte(System.Decimal)">
+            <summary>
+            credite de l'argent sur le compte
+            </summary>
+            <param name="somme"></param>
+            <returns>true si la transaction a plus s'effectuer et false si elle n'a pas pus ce faire</returns>
+        </member>
+        <member name="M:libBanque.CompteBancaires.DebiterCompte(System.Decimal)">
+            <summary>
+            débite de l'argent de son compte
+            </summary>
+            <param name="somme"></param>
+            <returns>cela returne si oui ou non on peut debiter le compte </returns>
+        </member>
+        <member name="F:libBanque.AgenceBancaire.lesComptes">
+            <summary>
+            Propriétés privées liste (collection ) des compte bancaires 
+            </summary>
+        </member>
+        <member name="M:libBanque.AgenceBancaire.#ctor(System.String)">
+            <summary>
+            initialise une nouvelle instance de la classe AgenceBancaire
+            </summary>
+            <param name="sonNom"> le nom de l'agence </param>
+        </member>
+        <member name="P:libBanque.AgenceBancaire.LesComptes">
+            <summary>
+            Obtien la liste des compte
+            </summary>
+        </member>
+    </members>
+</doc>

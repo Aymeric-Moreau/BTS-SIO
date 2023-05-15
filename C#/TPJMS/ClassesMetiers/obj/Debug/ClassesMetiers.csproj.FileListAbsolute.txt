@@ -1,0 +1,13 @@
+D:\annee2022_2023\SIO1\Bloc2-Dev\projetsVisualStudio\TPJMS\ClassesMetiers\bin\Debug\ClassesMetiers.dll
+D:\annee2022_2023\SIO1\Bloc2-Dev\projetsVisualStudio\TPJMS\ClassesMetiers\bin\Debug\ClassesMetiers.pdb
+D:\annee2022_2023\SIO1\Bloc2-Dev\projetsVisualStudio\TPJMS\ClassesMetiers\obj\Debug\ClassesMetiers.csprojAssemblyReference.cache
+D:\annee2022_2023\SIO1\Bloc2-Dev\projetsVisualStudio\TPJMS\ClassesMetiers\obj\Debug\ClassesMetiers.dll
+D:\annee2022_2023\SIO1\Bloc2-Dev\projetsVisualStudio\TPJMS\ClassesMetiers\obj\Debug\ClassesMetiers.pdb
+D:\annee2022_2023\SIO1\Bloc2-Dev\projetsVisualStudio\TPJMS\ClassesMetiers\bin\Debug\ClassesMetiers.xml
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ClassesMetiers\bin\Debug\ClassesMetiers.xml
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ClassesMetiers\bin\Debug\ClassesMetiers.dll
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ClassesMetiers\bin\Debug\ClassesMetiers.pdb
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ClassesMetiers\obj\Debug\ClassesMetiers.csproj.AssemblyReference.cache
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ClassesMetiers\obj\Debug\ClassesMetiers.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ClassesMetiers\obj\Debug\ClassesMetiers.dll
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ClassesMetiers\obj\Debug\ClassesMetiers.pdb

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2 Json Aymeric Moreau</title>
+</head>
+<body id="leg1">
+    
+
+
+    <script>
+        var legume1 ={
+            "categorie":"legume",
+            "variete":"Bintje",
+            "culture":{
+                "min": "100 jours",
+                "max":"120 jours"
+
+            },
+            "cuisine": ["soupe","purèe","Frites"],
+            "url":"https://fr.wikipedia.org/wiki/Bintje",
+
+
+        };
+
+
+        // récupération de l'id html leg1
+        var leg1 = document.getElementById('leg1');
+
+        // création de varible pour les élement html 
+        var legumeh21 = document.createElement('h2');
+        var legumep1 = document.createElement('p');
+        var legumep2 = document.createElement('p');
+        var legumep1a = document.createElement('a');
+        var lientext = document.createTextNode(legume1.variete);
+        var legumeh22 = document.createElement('h2');
+
+        //on définit la propriéter de la variable
+        legumep1a.href = legume1.url;
+
+        // on attribue du texte dans les variable atribu html
+        legumeh21.textContent ='La pomme de terre';
+        legumep1.textContent ='Variete : ' ;//+ legume1.variete;
+        legumep2.textContent ='la durée est entre : ' + legume1.culture.max + ' et ' + legume1.culture.min + 'jours';
+        legumep1a.title = 'wikipedia';
+        legumeh22.textContent = "Les recette conseillées";
+        
+
+        // on ajoute les variable a la page html
+        leg1.appendChild(legumeh21);
+        leg1.appendChild(legumep1);
+        leg1.appendChild(legumep2);
+        legumep1a.appendChild(lientext);
+        legumep1.appendChild(legumep1a);
+        leg1.appendChild(legumeh22);
+
+        // foreach rectte 
+        legume1.cuisine.forEach(function(cuisine) {
+            var sp = document.createElement('span');
+            sp.textContent =cuisine;
+            leg1.appendChild(sp);
+            //retour a la ligne
+            leg1.appendChild(document.createElement('br'));
+        });
+        
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

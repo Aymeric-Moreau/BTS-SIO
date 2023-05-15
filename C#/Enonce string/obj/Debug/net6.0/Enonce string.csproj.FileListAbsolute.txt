@@ -1,0 +1,15 @@
+C:\Users\aymer\source\repos\Enonce string\bin\Debug\net6.0\Enonce string.exe
+C:\Users\aymer\source\repos\Enonce string\bin\Debug\net6.0\Enonce string.deps.json
+C:\Users\aymer\source\repos\Enonce string\bin\Debug\net6.0\Enonce string.runtimeconfig.json
+C:\Users\aymer\source\repos\Enonce string\bin\Debug\net6.0\Enonce string.dll
+C:\Users\aymer\source\repos\Enonce string\bin\Debug\net6.0\Enonce string.pdb
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.AssemblyInfoInputs.cache
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.AssemblyInfo.cs
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.dll
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\refint\Enonce string.dll
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.pdb
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\Enonce string.genruntimeconfig.cache
+C:\Users\aymer\source\repos\Enonce string\obj\Debug\net6.0\ref\Enonce string.dll

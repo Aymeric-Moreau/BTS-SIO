@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+C:\Users\aymer\source\repos\eclipse java\.metadata\.plugins\org.eclipse.jdt.core
+2691860842.index
+54703828.index
+2875692389.index
+916446283.index
+437792198.index
+3064682238.index
+1865797976.index
+35293187.index
+1514318940.index
+1287310298.index
+2027226459.index
+2616746164.index
+1461189041.index
+797567409.index
+1295437657.index
+2535408456.index
+461099357.index
+71367278.index
+4048178593.index

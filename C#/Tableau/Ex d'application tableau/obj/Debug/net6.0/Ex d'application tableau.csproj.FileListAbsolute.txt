@@ -1,0 +1,15 @@
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\bin\Debug\net6.0\Ex d'application tableau.exe
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\bin\Debug\net6.0\Ex d'application tableau.deps.json
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\bin\Debug\net6.0\Ex d'application tableau.runtimeconfig.json
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\bin\Debug\net6.0\Ex d'application tableau.dll
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\bin\Debug\net6.0\Ex d'application tableau.pdb
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.AssemblyInfoInputs.cache
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.AssemblyInfo.cs
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.dll
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\refint\Ex d'application tableau.dll
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.pdb
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\Ex d'application tableau.genruntimeconfig.cache
+C:\Users\aymer\source\repos\Tableau\Ex d'application tableau\obj\Debug\net6.0\ref\Ex d'application tableau.dll

@@ -1,0 +1,8 @@
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\bin\Debug\ex_d'aplication-1.exe.config
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\bin\Debug\ex_d'aplication-1.exe
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\bin\Debug\ex_d'aplication-1.pdb
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\obj\Debug\ex_d'aplication-1.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\obj\Debug\ex_d'aplication-1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\obj\Debug\ex_d'aplication-1.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\obj\Debug\ex_d'aplication-1.exe
+C:\Users\aymer\source\repos\fichier txt\ex_d'aplication-1\obj\Debug\ex_d'aplication-1.pdb

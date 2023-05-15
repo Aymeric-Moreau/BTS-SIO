@@ -1,0 +1,8 @@
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\bin\Debug\Enonce2.exe.config
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\bin\Debug\Enonce2.exe
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\bin\Debug\Enonce2.pdb
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\obj\Debug\Enonce2.csproj.AssemblyReference.cache
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\obj\Debug\Enonce2.csproj.SuggestedBindingRedirects.cache
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\obj\Debug\Enonce2.csproj.CoreCompileInputs.cache
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\obj\Debug\Enonce2.exe
+C:\Users\aymer\source\repos\Tableau\TPTableaux2Dimensions\Enonce2\obj\Debug\Enonce2.pdb
