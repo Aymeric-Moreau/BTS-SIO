@@ -53,6 +53,7 @@ namespace ProjetTests
             Console.WriteLine(" p5 a été reviser : " + p5.ToString());
 
 
+            Console.WriteLine(" \n Affichage des piece  agree");
             // appel de la fonction pour récupérer la liste des pièces agréées
             List<PieceAgree> listePiecesAgrees = Magasin.lesPiecesAgrees();
 
@@ -62,7 +63,7 @@ namespace ProjetTests
                 Console.WriteLine("dans la liste il y " + piece.ToString() + " en tant que piece agree");
             }
 
-
+            Console.WriteLine(" \n Affichage des piece non agree d'ont l'etat est a vert ");
             // appel de la fonction pour récupérer la liste des pièces non agréées
             List<PieceNonAgree> listePiecesNonAgrees = Magasin.lesPiecesNonAgreees("VERT");
 
@@ -71,8 +72,12 @@ namespace ProjetTests
             {
                 Console.WriteLine("dans la liste il y " + piece.ToString() + " en tant que piece non agree");
             }
+
+            Console.WriteLine("\n E02 est supprimer");
             //on supprime de la liste la piece E02
             Magasin.Supprimer("E02");
+
+            listePiecesNonAgrees = Magasin.lesPiecesNonAgreees("VERT");
 
             // et on r'affiche les piece non agree
             foreach (PieceNonAgree piece in listePiecesNonAgrees)

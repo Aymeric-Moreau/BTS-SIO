@@ -19,3 +19,4 @@ C:\xampp\htdocs\mes_site_web\C#\TPJMS\ProjetTests\obj\Debug\ProjetTests.csproj.C
 C:\xampp\htdocs\mes_site_web\C#\TPJMS\ProjetTests\obj\Debug\ProjetTests.csproj.CopyComplete
 C:\xampp\htdocs\mes_site_web\C#\TPJMS\ProjetTests\obj\Debug\ProjetTests.exe
 C:\xampp\htdocs\mes_site_web\C#\TPJMS\ProjetTests\obj\Debug\ProjetTests.pdb
+C:\xampp\htdocs\mes_site_web\C#\TPJMS\ProjetTests\bin\Debug\ClassesMetiers.dll

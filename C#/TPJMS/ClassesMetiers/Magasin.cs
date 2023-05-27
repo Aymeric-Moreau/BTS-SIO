@@ -83,16 +83,23 @@ namespace ClassesMetiers
         public  static void Supprimer(String n)
         {
             Piece pieceASupprimer = null;
-            foreach (Piece piece in LesPieces)
+            bool ok = false;
+            int nbr = 0;
+            while (ok == false && nbr != LesPieces.Count)
             {
-                if (piece.NumSerie == n)
+                nbr++;
+                Console.WriteLine(nbr);
+                if (LesPieces[nbr].NumSerie == n)
                 {
-                    pieceASupprimer = p;
-                    break;
+                    Console.WriteLine("objet trouver");
+;                    pieceASupprimer = LesPieces[nbr];
+                    ok = true;
                 }
             }
+
             if (pieceASupprimer != null)
             {
+                Console.WriteLine("objet supp");
                 LesPieces.Remove(pieceASupprimer);
             }
             
