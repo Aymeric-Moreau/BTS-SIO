@@ -1,0 +1,24 @@
+sport co
+basket
+hockey
+foot
+
+sport de combat 
+judo
+karaté
+Escrime
+
+sport de racket
+tennis 
+ping pong 
+badminton
+
+sport de glisse 
+patinage
+roller
+
+ Gymnastique
+Pétanque 
+
+
+il reste gym pétanque 
