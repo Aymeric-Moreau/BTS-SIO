@@ -6,14 +6,14 @@ if (!isset($_REQUEST['action'])) {
 $action = htmlspecialchars($_REQUEST["action"]);
 
 switch ($action) {
-    case "patinage":
+    case "presentation":
 
-        include 'vues/vues_sport_glisse/V_patinage.php';
+        include 'vues/vues_presentation/V_presentation.php';
         break;
 
-    case "roller":
+    case "histoire":
 
-        include 'vues/vues_sport_glisse/V_roller.php';
+        include 'vues/vues_presentation/V_histoire.php';
         break;
 
 }

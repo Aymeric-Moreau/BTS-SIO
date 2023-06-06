@@ -5,11 +5,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Liaison au fichier css de Bootstrap-->
-        <title>Millenuits</title>
+        <title>E.S.B</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <link href="vues/vues_millenuits/CSS_caroussel/caroussel.css" rel="stylesheet">
+        <link href="" rel="stylesheet">
 
     </head>
     <body>
@@ -26,14 +26,20 @@
             case "authentification":
                 include 'controleurs/C_authentification.php';
                 break;
+            case "presentation":
+                include 'controleurs/C_presentation.php';
+                break;
             case "sport_co":
                 include 'controleurs/C_sport_co.php';
                 break;
-            case "sport_comabt":
-                include 'controleurs/C_sport_comabt.php';
+            case "sport_combat":
+                include 'controleurs/C_sport_combat.php';
                 break;
             case "sport_raquette":
                 include 'controleurs/C_sport_raquette.php';
+                break;
+            case "sport_glisse":
+                include 'controleurs/C_sport_glisse.php';
                 break;
             case "gym":
                 include 'controleurs/C_gym.php';
@@ -45,13 +51,13 @@
                 include 'controleurs/C_decouvert.php';
                 break;
             default :
-                include 'vues/vues_millenuits/V_accueil.php';
+                include 'vues/V_accueil.php';
                 break;
         }
         ?>
 
 
-        ?>
+        
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
