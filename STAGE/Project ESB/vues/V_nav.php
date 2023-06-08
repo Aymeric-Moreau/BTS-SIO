@@ -1,18 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
         <a class="navbar-brand" href="index.php" ><img src="assets/img/logo_esb.png" alt="Logo ESB" width="90" height="90" /></a>
 
         <!-- gestion du menu pour les smartphone -->
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-millenuits">
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- fin de gestion du menu smartphone -->
 
         <!-- Fonctionnalités de la barre de navigation -->
-        <div class="collapse navbar-collapse" id="menu-millenuits">
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
 
-            <ul class="navbar-nav">
-                <li class="nav_item dropdown">
+            <ul class="navbar-nav nav-pills">
+                <li class="nav_item dropdown active">
                     <a class ="nav-link dropdown-toggle" href="#"
                        id="navbarDropdownCommerciaux" data-bs-toggle="dropdown">Qui somme nous ?</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownCommerciaux">
