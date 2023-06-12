@@ -7,12 +7,16 @@
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/ajax/ajax_getDetail_CR.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/passerelles/Pdo_connexion.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/vues/vues_millenuits/V_nav.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/vues/vues_commerciaux/V_liste_commerciaux.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/index.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/C_commerciaux.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/vues/vues_commerciaux/V_ajout_commerciaux.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/C_distributeurs.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/vues/vues_contacts/V_ajouterContact.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/ajax/ajax_getComptes_rendus.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/C_authentification.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/C_consultation.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/vues/vues_comptes_rendus/V_Ajouter_CompteRendu.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/C_contacts.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/passerelles/Pdo_compte_rendu_visite.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/Project_Millenuit/MILLENUITS_CR/controleurs/C_produits.php</file>

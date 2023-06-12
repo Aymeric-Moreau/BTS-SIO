@@ -6,20 +6,18 @@
     </div>
     <style>
         .carousel-caption {
-            position: absolute;/*
-            */
+            position: absolute;
             bottom: 2;
             left: 45%;
-            transform: translateX(-50%);/*
-            */
-            background-color: beige;/*
+            transform: translateX(-50%);
+            background-color: beige;
                         padding: 10px;
                         display: inline-block;
-            */
+            
             margin: 5%;
             color: black;
             width: 20%;
-                        border-radius: 30px;
+            border-radius: 30px;
         }
         .carousel{
             border-color: black;

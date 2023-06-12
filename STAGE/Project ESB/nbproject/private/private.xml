@@ -6,6 +6,7 @@
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/V_connexion.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/V_form.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_co/V_basket.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/assets/img/LOGO%20ville%20de%20Bourgueil.jpg</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_raquette/V_badminton.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_decouvert/V_decouvert.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/controleurs/C_gym.php</file>
@@ -15,13 +16,18 @@
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/controleurs/C_sport_raquette.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_raquette/V_tennis_table.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/V_nav.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/assets/img/LOGO-ville-de-Bourgueil.jpg</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/V_presentation_personne.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_gym/V_taiso.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/V_card.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_glisse/V_patinage.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/controleurs/form.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/V_caroussel.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_glisse/V_roller.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_combat/V_escrime.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/assets/img/LOGO%20ESB%202021.jpg</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_combat/V_karate.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/assets/img/LOGO-FFCO-RVB.png</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/controleurs/C_sport_co.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_presentation/V_histoire.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/controleurs/C_decouvert.php</file>
@@ -34,6 +40,7 @@
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_sport_co/V_football.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/index.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/V_footer.php</file>
+            <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/assets/img/Logo_Inter_Sport.png</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/vues/vues_presentation/V_presentation.php</file>
             <file>file:/C:/xampp/htdocs/mes_site_web/STAGE/Project%20ESB/controleurs/C_sport_glisse.php</file>
         </group>
