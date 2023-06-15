@@ -18,14 +18,10 @@ switch ($action) {
             $message = $_POST['Textarea'];
             $nom = $_POST['nom'];
             $prenom = $_POST['prenom'];
+            // création du header pour que tous les charctére sois accepter méme les emoji
+            $headers = "Content-type: text/plain; charset=utf-8\r\n";
+            $headers .= "From: test.test.test.esb@gmail.com\r\n";
 
-            echo "$email";
-//            $regexE = '#^[-\w.]+@([\w-]+\.)+[\w-]{2,4}$#';
-//
-//            if (!preg_match($regexE, $email)) {
-//                echo "L'adresse e-mail n'est pas valide.";
-//                exit();
-//            }
 
 
             // Validation des données (exemple simple)
@@ -39,7 +35,7 @@ switch ($action) {
             $body = "Adresse e-mail : $email\n\nMessage : $message";
 
             // Envoi de l'e-mail
-            if (mail($to, $subject, $body)) {
+            if (mail($to, $subject, $body, $headers)) {
                 echo "E-mail envoyé avec succès.";
             } else {
                 echo "Une erreur s'est produite lors de l'envoi de l'e-mail.";

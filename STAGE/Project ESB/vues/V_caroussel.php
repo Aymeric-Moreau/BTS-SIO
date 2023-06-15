@@ -4,16 +4,16 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <style>
+<!--    <style>
         .carousel-caption {
             position: absolute;
             bottom: 2;
             left: 45%;
             transform: translateX(-50%);
             background-color: beige;
-                        padding: 10px;
-                        display: inline-block;
-            
+            padding: 10px;
+            display: inline-block;
+
             margin: 5%;
             color: black;
             width: 20%;
@@ -25,14 +25,21 @@
 
         }
 
-    </style>
+    </style>-->
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="assets/img/paysage.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block ">
+            <div class="overlay">
+                <div class="content">
+                    <h2>Titre du texte</h2>
+                    <p>Description ou contenu supplémentaire</p>
+                    <button type="button" class="btn btn-primary">En savoir plus</button>
+                </div>
+            </div>
+<!--            <div class="carousel-caption d-none d-md-block ">
                 <h5>First slide label</h5>
                 <button type="button" class="btn btn-primary">En savoir plus</button>
-            </div>
+            </div>-->
         </div>
         <div class="carousel-item">
             <img src="assets/img/1186483.jpg" class="d-block w-100" alt="...">
@@ -60,4 +67,6 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+
+
 
