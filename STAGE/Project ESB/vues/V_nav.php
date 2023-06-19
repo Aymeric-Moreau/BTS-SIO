@@ -9,9 +9,9 @@
         <!-- fin de gestion du menu smartphone -->
 
         <!-- Fonctionnalités de la barre de navigation -->
-        <div class="navbar-nav collapse navbar-collapse  ms-auto" id="menu">
+        <div class="navbar-nav collapse navbar-collapse navbar-brand ms-auto" id="menu">
 
-            <ul class="navbar-nav nav-pills">
+            <ul class="navbar-nav nav-pills ms-auto">
                 <li class="nav_item dropdown active">
                     <a class ="nav-link dropdown-toggle" href="#"
                        id="navbarDropdownpresentation" data-bs-toggle="dropdown">Qui somme nous ?</a>
