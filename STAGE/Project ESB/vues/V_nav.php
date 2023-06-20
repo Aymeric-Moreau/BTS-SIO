@@ -12,7 +12,7 @@
         <div class="navbar-nav collapse navbar-collapse navbar-brand ms-auto" id="menu">
 
             <ul class="navbar-nav nav-pills ms-auto">
-                <li class="nav_item dropdown active">
+                <li class="nav_item dropdown active ms-auto">
                     <a class ="nav-link dropdown-toggle" href="#"
                        id="navbarDropdownpresentation" data-bs-toggle="dropdown">Qui somme nous ?</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownpresentation">
@@ -21,7 +21,7 @@
                     </ul>  
                 </li>
                 
-                <li class="nav_item dropdown">
+                <li class="nav_item dropdown ms-auto">
                     <a class ="nav-link dropdown-toggle" href="#"
                        id="navbarDropdownSport" data-bs-toggle="dropdown">Les sport</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownSport">
@@ -52,7 +52,7 @@
             if (isset($_SESSION["login"])) {
             ?>
                            <ul class="navbar-nav ms-auto">
-                                 <!--balise href pour le nom de l'utilisateur pour la présentation--> 
+                                  
                                 <li class="nav-item" ><a class="nav-link" href="#"><span class="bi-person-fill">
                                         </span><?php echo " " . $_SESSION["login"]; ?></a></li>
                                 <li class="nav-item" ><a class="nav-link" href="index.php?uc=authentification&action=se_deconnecter"> Se déconnecter

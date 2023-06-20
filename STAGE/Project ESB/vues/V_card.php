@@ -36,7 +36,7 @@
 
 
         <div class="col gy-5 col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-v" style="width: 18rem; flex-direction: column;">
+            <div class="card card-v" style="width: 18rem;">
                 <img src="assets/img/CDOS.gif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="card mb-3 card-h" style="max-width: 540px; flex-direction: row;">
+        <div class="card mb-3 card-h" id="card-h1" style="max-width: 540px; flex-direction: row;">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="assets/img/portrait_chad.png" class="img-fluid rounded-start" alt="...">
@@ -103,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="card mb-3 card-h" style="max-width: 540px; flex-direction: row;">
+        <div class="card mb-3 card-h" id="card-h2" style="max-width: 540px; flex-direction: row;">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="assets/img/portrait_chad.png" class="img-fluid rounded-start" alt="...">
@@ -141,7 +141,7 @@
         </div>
 
         <div class="col gy-5 col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-v" style="width: 18rem; flex-direction: column;">
+            <div class="card card-v" id="card-v" style="width: 18rem; flex-direction: column;">
                 <img src="assets/img/Hyper_U.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -174,7 +174,7 @@
         </div>
 
         <div class="col gy-5 col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-v" style="width: 18rem;flex-direction: column;">
+            <div class="card card-v" id="card-v" style="width: 18rem;flex-direction: column;">
                 <img src="assets/img/Logo_AREAS.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -205,9 +205,11 @@
                 </div>
             </div>
         </div>
+        
+
 
         <div class="col gy-5 col-xs-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card card-v" style="width: 18rem; flex-direction: column;">
+            <div class="card card-v" id="card-v" style="width: 18rem; flex-direction: column;">
                 <img src="assets/img/Logo_Inter_Sport.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>

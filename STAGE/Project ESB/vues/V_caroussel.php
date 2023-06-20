@@ -4,28 +4,6 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-<!--    <style>
-        .carousel-caption {
-            position: absolute;
-            bottom: 2;
-            left: 45%;
-            transform: translateX(-50%);
-            background-color: beige;
-            padding: 10px;
-            display: inline-block;
-
-            margin: 5%;
-            color: black;
-            width: 20%;
-            border-radius: 30px;
-        }
-        .carousel{
-            border-color: black;
-            border-radius: 1px;
-
-        }
-
-    </style>-->
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="assets/img/paysage.jpg" class="d-block w-100" alt="...">
@@ -33,14 +11,33 @@
                 <div class="content">
                     <h2>Titre du texte</h2>
                     <p>Description ou contenu supplémentaire</p>
-                    <button type="button" class="btn btn-primary">En savoir plus</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#btnC1">En savoir plus</button>
+               <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="btnC1" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            info5
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus leo, volutpat vitae
+                            mi
+                            ultrices,
+                            sollicitudin
+                            blandit dui. Mauris ultricies iaculis leo id consequat. Class aptent taciti sociosqu ad
+                            litora
+                            torquent
+                            per conubia
+                            nostra, per inceptos himenaeos. Sed posuere risus viverra ornare porttitor. Nullam egestas
+                            nec
+                            libero eget
+                            sagittis.
+                            Phasellus vulputate ante a vulputate vehicula. Suspendisse nec dolor ante.
+                        </div>
+                    </div>
                 </div>
             </div>
-<!--            <div class="carousel-caption d-none d-md-block ">
-                <h5>First slide label</h5>
-                <button type="button" class="btn btn-primary">En savoir plus</button>
-            </div>-->
         </div>
+
         <div class="carousel-item">
             <img src="assets/img/1186483.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block bs-body-color">
