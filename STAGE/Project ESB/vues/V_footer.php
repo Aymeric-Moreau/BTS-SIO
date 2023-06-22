@@ -4,6 +4,7 @@
                 <div class="col-12 col-md-4">
                     <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
                        <img src="assets/img/logo_esb.png" alt="Logo ESB" width="90" height="90" />
+                       
                     </a>
                 </div>
                 <div class="col-12 col-md-4 text-md-center">
@@ -37,7 +38,7 @@
                 </div>
             </div>
         </div>
-
+    <img src="../assets/front/CHAD.jpg" alt=""/>
         <!-- Modal -->
         <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel"
              aria-hidden="true">

@@ -9,7 +9,7 @@
         <!-- fin de gestion du menu smartphone -->
 
         <!-- Fonctionnalités de la barre de navigation -->
-        <div class="navbar-nav collapse navbar-collapse navbar-brand ms-auto" id="menu">
+        <div class="navbar-nav collapse navbar-collapse navbar-brand d-flex justify-content-end " id="menu">
 
             <ul class="navbar-nav nav-pills ms-auto">
                 <li class="nav_item dropdown active ms-auto">
@@ -51,7 +51,7 @@
                         <?php
             if (isset($_SESSION["login"])) {
             ?>
-                           <ul class="navbar-nav ms-auto">
+                           <ul class="navbar-nav ms-auto d-flex flex-row-reverse">
                                   
                                 <li class="nav-item" ><a class="nav-link" href="#"><span class="bi-person-fill">
                                         </span><?php echo " " . $_SESSION["login"]; ?></a></li>
@@ -61,7 +61,7 @@
             <?php
           } else {
             ?>
-                            <ul class="navbar-nav ms-auto">
+                            <ul class="navbar-nav ms-auto d-flex  justify-content-end">
                                 <li class="nav-item"> <button type="button" class="btn " href="index.php?uc=authentification&action=se_connecter" id="se_connecter">Se connecter</button> </li>
                                 
                             </ul>
