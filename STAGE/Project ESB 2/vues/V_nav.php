@@ -9,10 +9,10 @@
         <!-- fin de gestion du menu smartphone -->
 
         <!-- Fonctionnalités de la barre de navigation -->
-        <div class="navbar-nav collapse navbar-collapse navbar-brand d-flex justify-content-end " id="menu">
+        <div class="collapse navbar-collapse" id="menu">
 
-            <ul class="navbar-nav nav-pills ms-auto">
-                <li class="nav_item dropdown active ms-auto">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown ms-auto">
                     <a class ="nav-link dropdown-toggle" href="#"
                        id="navbarDropdownpresentation" data-bs-toggle="dropdown">Qui somme nous ?</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownpresentation">
@@ -21,7 +21,8 @@
                     </ul>  
                 </li>
 
-                <li class="nav_item dropdown ms-auto">
+
+                <li class="nav-item dropdown ms-auto">
                     <a class ="nav-link dropdown-toggle" href="#"
                        id="navbarDropdownSport" data-bs-toggle="dropdown">Les sport</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownSport">
@@ -42,32 +43,34 @@
                     </ul>  
                 </li>
 
-                <li class="nav_item ">
+                <li class="nav-item ms-auto">
                     <a class ="nav-link " href="index.php?uc=decouvert&action=decouvert"
                        id="navbarDecouvert" >Découverte</a>
 
                 </li>
-            </ul>
-            <?php
-            if (isset($_SESSION["login"])) {
-                ?>
-                <ul class="navbar-nav ms-auto d-flex flex-row-reverse">
 
-                    <li class="nav-item" ><a class="nav-link" href="#"><span class="bi-person-fill">
-                            </span><?php echo " " . $_SESSION["login"]; ?></a></li>
-                    <li class="nav-item" ><a class="nav-link" href="index.php?uc=authentification&action=se_deconnecter"> Se déconnecter
-                            <span class="bi-box-arrow-in-right"></span></a></li>                  
-                </ul>
                 <?php
-            } else {
-                ?>
-                <ul class="navbar-nav ms-auto d-flex  justify-content-end">
+                if (isset($_SESSION["login"])) {
+                    ?>
+
+
+                    <li class="nav-item ms-auto" ><a class="nav-link" href="#"><span class="bi-person-fill">
+                            </span><?php echo " " . $_SESSION["login"]; ?></a></li>
+                    <li class="nav-item ms-auto" ><a class="nav-link" href="index.php?uc=authentification&action=se_deconnecter"> Se déconnecter
+                            <span class="bi-box-arrow-in-right"></span></a></li>                  
+
+                    <?php
+                } else {
+                    ?>
+
                     <li class="nav-item"> <button type="button" class="btn " href="index.php?uc=authentification&action=se_connecter" id="se_connecter">Se connecter</button> </li>
 
-                </ul>
-                <?php
-            }
-            ?>
+
+
+                    <?php
+                }
+                ?>
+            </ul>
         </div>
     </div>
 </nav>
