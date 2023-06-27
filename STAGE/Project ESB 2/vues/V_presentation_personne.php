@@ -1,8 +1,6 @@
-
 <div class="container equipe">
     <h1>L'équipe</h1>
     <div class="row grid gap-4">
-
 
         <div class="card" style="max-width: 616px; background: white; border-radius: 16px; overflow: hidden;">
             <div class="row g-0 no-gutters">
@@ -19,7 +17,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="card cp">
             <div class="row g-0">
@@ -74,9 +71,5 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
 </div>
