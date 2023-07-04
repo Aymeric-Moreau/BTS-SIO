@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nom = $_POST['nom'];
     $prenom = $_POST['prenom'];
 
-    // Validation des données (exemple simple)
+    // Validation des données 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "L'adresse e-mail n'est pas valide.";
         exit;

@@ -10,7 +10,7 @@
                             <h1 class="card-title ctc mb-4">Contactez-nous !</h1>
                             <form>
                                 <div class="form-group">
-                                    <label for="nom">Nom et Prénom</label>
+                                    <label for="nom">Nom</label>
                                     <div class="input-group mb-3">
                                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
                                         <input type="text" class="form-control" id="nom" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">

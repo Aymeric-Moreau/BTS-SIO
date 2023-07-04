@@ -1,7 +1,9 @@
-
+<!-- Lien ver le fichier php qui va réaliser l'envoie de ce mail -->
 <form action="index.php?uc=decouvert&action=form" method="post">
     <div class="col-sm-6">
+        <!-- label qui sert a indiquer a quoi sert le champ -->
         <label for="exampleInputEmail1" class="form-label">Adresse Mail*</label>
+        <!-- champ où il faut entrer les données -->
         <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
@@ -22,5 +24,8 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
+    <!-- bouton pour envoyer le formulaire -->
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+

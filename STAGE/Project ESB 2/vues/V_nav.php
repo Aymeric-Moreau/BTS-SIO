@@ -13,9 +13,11 @@
 
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item dropdown ms-auto">
+                    <!-- menue déroulant -->
                     <a class ="nav-link dropdown-toggle" href="#"
                        id="navbarDropdownpresentation" data-bs-toggle="dropdown">Qui somme nous ?</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownpresentation">
+                        <!-- élément a l'intérieur du menue déroulant -->
                         <li><a class="dropdown-item" href="index.php?uc=presentation&action=presentation">Présentation</a></li>
                         <li><a class="dropdown-item" href="index.php?uc=presentation&action=histoire">Notre histoire</a></li>
                     </ul>  
@@ -48,7 +50,7 @@
                        id="navbarDecouvert" >Découverte</a>
 
                 </li>
-
+<!-- si l'utilisateur est connecter cela fais apparaite le bouton pour ce déconnecter si il n'est pas connecter cela fais apparaite le bouton se connecter -->
                 <?php
                 if (isset($_SESSION["login"])) {
                     ?>
