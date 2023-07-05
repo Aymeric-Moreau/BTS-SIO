@@ -6,6 +6,7 @@
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <!-- fin de gestion du menu smartphone -->
 
         <!-- Fonctionnalités de la barre de navigation -->
@@ -50,7 +51,7 @@
                        id="navbarDecouvert" >Découverte</a>
 
                 </li>
-<!-- si l'utilisateur est connecter cela fais apparaite le bouton pour ce déconnecter si il n'est pas connecter cela fais apparaite le bouton se connecter -->
+                <!-- si l'utilisateur est connecter cela fais apparaite le bouton pour ce déconnecter si il n'est pas connecter cela fais apparaite le bouton se connecter -->
                 <?php
                 if (isset($_SESSION["login"])) {
                     ?>
@@ -65,7 +66,7 @@
                 } else {
                     ?>
 
-                    <li class="nav-item"> <button type="button" class="btn " href="index.php?uc=authentification&action=se_connecter" id="se_connecter">Se connecter</button> </li>
+                    <li class="nav-item ms-auto"> <button type="button" class="btn " href="index.php?uc=authentification&action=se_connecter" id="se_connecter">Se connecter</button> </li>
 
 
 

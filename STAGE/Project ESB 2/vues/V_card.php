@@ -1,4 +1,6 @@
+<h1 class="justify-content-start h1c">Actualité</h1>
 <div class="container">
+    
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
 
         <div class="col gy-5">
