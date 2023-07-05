@@ -1,17 +1,17 @@
 
 <footer class="border-top">
     <div class="container py-5">
-        <div class="row gy-4 align-items-center">
+        <div class="row align-items-center ">
             <div class="col-12 col-md-4">
                 <!-- Logo de l'ESB -->
-                <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
+                <a class="" href="#">
                     <img src="assets/img/logo_esb.png" alt="Logo ESB" width="90" height="90" />
                 </a>
             </div>
 
-            <div class="col-12 col-md-4 text-md-center d-flex align-items-center">
+            <div class="col-12 col-md-4  d-flex align-items-end ">
                 <!-- Contenu à placer au centre du footer -->
-                <ul class="list-unstyled mb-0 d-flex justify-content-center">
+                <ul class="list-unstyled mb-0 ">
                     <li>
                         <a href="#" class="text-decoration-none text-dark ml" data-bs-toggle="modal" data-bs-target="#mentionsLegales">Mentions légales</a>
                     </li>
