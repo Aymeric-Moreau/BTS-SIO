@@ -30,7 +30,7 @@ switch ($action) {
                 exit;
             }
             // Construction de l'e-mail
-            $to = 'aymeric.moreau13@gmail.com';
+//            $to = 'diane.tsarafidy@gmail.com';
             $subject = "Nouveau message du formulaire de $nom $prenom ";
             $body = "Adresse e-mail : $email\n\nMessage : $message";
 

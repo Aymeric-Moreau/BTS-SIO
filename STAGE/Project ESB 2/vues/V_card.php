@@ -7,14 +7,14 @@
             <div class="card card-v" style="width: 18rem;flex-direction: column;">
 
                 <div class="card-body">
-                    <img src="assets/img/logo_esb.png" class="card-img-top" alt="...">
+                    <img src="assets/img/Logo_AREAS.png" class="card-img-top" alt="...">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#info1" aria-controls="staticBottom">Go somewhere</a>
+                    <a href="#" class="btn btnA" data-bs-toggle="offcanvas" data-bs-target="#info1" aria-controls="staticBottom">En savoir plus</a>
                     <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="info1" aria-labelledby="offcanvasBottomLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" ">Offcanvas bottom</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body small">
                             info2
@@ -48,11 +48,11 @@
                     <img src="assets/img/CDOS.gif" class="card-img-top" alt="...">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#info2" aria-controls="staticBottom">Go somewhere</a>
+                    <a href="#" class="btn btnA" data-bs-toggle="offcanvas" data-bs-target="#info2" aria-controls="staticBottom">En savoir plus</a>
                     <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="info2" aria-labelledby="offcanvasBottomLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" >Offcanvas bottom</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body small">
                             info2
@@ -84,11 +84,11 @@
                     <img src="assets/img/Hyper_U.png" class="card-img-top" alt="...">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#info3">Go somewhere</a>
+                    <a href="#" class="btn btnA" data-bs-toggle="offcanvas" data-bs-target="#info3" aria-controls="staticBottom">En savoir plus</a>
                     <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="info3" aria-labelledby="offcanvasBottomLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" >Offcanvas bottom</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body small">
                             info3
@@ -118,11 +118,11 @@
                     <img src="assets/img/Logo_AREAS.png" class="card-img-top" alt="...">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#info4">Go somewhere</a>
+                    <a href="#" class="btn btnA" data-bs-toggle="offcanvas" data-bs-target="#info4" aria-controls="staticBottom">En savoir plus</a>
                     <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="info4" aria-labelledby="offcanvasBottomLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" >Offcanvas bottom</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body small">
                             info4
@@ -154,11 +154,11 @@
                     <img src="assets/img/Logo_Inter_Sport.png" class="card-img-top" alt="...">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#info5">Go somewhere</a>
+                    <a href="#" class="btn btnA" data-bs-toggle="offcanvas" data-bs-target="#info5" aria-controls="staticBottom">En savoir plus</a>
                     <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="info5" aria-labelledby="offcanvasBottomLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" >Offcanvas bottom</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body small">
                             info5

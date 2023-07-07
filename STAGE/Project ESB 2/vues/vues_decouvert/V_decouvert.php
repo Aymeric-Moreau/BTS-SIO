@@ -1,1 +1,19 @@
-<h1>page decouvert</h1>
+
+
+<div class="container-fluid">
+
+    <div class ="text-center">
+       
+            <?php
+            include 'V_introduction.php';
+            
+            
+
+            include 'V_contact.php';
+            ?>
+
+
+    </div>
+
+</div>
+
