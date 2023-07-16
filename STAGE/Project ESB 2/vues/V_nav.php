@@ -15,13 +15,13 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item dropdown ms-auto">
                     <!-- menue déroulant -->
-                    <a class ="nav-link dropdown-toggle" href="#"
-                       id="navbarDropdownpresentation" data-bs-toggle="dropdown">Qui somme nous ?</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownpresentation">
-                        <!-- élément a l'intérieur du menue déroulant -->
+                    <a class ="nav-link " href="index.php?uc=presentation&action=presentation"
+                       id="navbarDropdownpresentation" >Qui somme nous ?</a>
+<!--                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownpresentation">
+                         élément a l'intérieur du menue déroulant 
                         <li><a class="dropdown-item" href="index.php?uc=presentation&action=presentation">Présentation</a></li>
-                        <li><a class="dropdown-item" href="index.php?uc=presentation&action=histoire">Notre histoire</a></li>
-                    </ul>  
+                        
+                    </ul>  -->
                 </li>
 
 

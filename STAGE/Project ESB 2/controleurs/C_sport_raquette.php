@@ -17,7 +17,7 @@ switch ($action) {
         break;
 
     case "badminton":
-        include 'vues/vues_sport_raquette/V_badminton.php';
+        include 'vues/vues_badminton/V_badminton.php';
         break;
 }
 ?>

@@ -13,7 +13,7 @@
                                     <label for="nom">Nom et Prénom</label>
                                     <div class="input-group mb-3">
                                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
-                                        <input type="text" class="form-control" id="nom" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">
+                                        <input type="text" class="form-control" id="nom" name="nom" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">
                                     </div>
 
                                     <div class="form-text">Helper text goes here</div>
@@ -23,7 +23,7 @@
                                     <label for="adresse-email">Adresse mail</label>
                                     <div class="input-group mb-3">
                                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-fill"></i></span>
-                                        <input type="email" class="form-control" id="adresse-email" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">
+                                        <input type="email" class="form-control" id="adresse-email" name="email" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">
                                     </div>
 
                                     <div class="form-text">Helper text goes here</div>
@@ -33,7 +33,7 @@
                                     <label for="telephone">Téléphone</label>
                                     <div class="input-group mb-3">
                                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-telephone-fill"></i></span>
-                                        <input type="tel" class="form-control" id="telephone" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">
+                                        <input type="tel" class="form-control" id="telephone" name="tel" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">
                                     </div>
 
                                     <div class="form-text">Helper text goes here</div>
@@ -42,10 +42,11 @@
                                 <div class="form-group">
                                     <label for="commentaire">Commentaire</label>
                                     <div class="form-textarea">
-                                        <textarea class="form-control" id="commentaire" rows="3" placeholder="Placeholder Text"></textarea>
+                                        <textarea class="form-control" id="commentaire" name="commentaire" rows="3" placeholder="Placeholder Text"></textarea>
                                         <div class="form-comment-icon"></div>
                                     </div>
-                                    <!--                                    <div id="commentaire-counter" class="form-counter">0/200</div>-->
+                                    <!-- Affichage du message d'envoi d'e-mail -->
+                                    <div class="email-message"><?php echo $emailSentMessage; ?></div>
                                 </div>
 
                                 <button type="submit" class="btn btn-primary btnc">Envoyer</button>
@@ -96,6 +97,56 @@
                                 <div class="custom-text">07.80.42.07.29</div>
                             </div>
                         </div>
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="position-relative custom-circle">
+                                <div class="rounded-circle custom-bg"></div>
+                                <div class="position-absolute custom-icon">
+                                    <div class="rounded custom-inner-icon"> <i class="bi bi-geo-alt-fill"></i></div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-start gap-1">
+                                <div class="fw-bold custom-title">Localisation de la patinoire</div>
+                                <div class="custom-text">Pl. Marcellin Renault, 37140 Bourgueil</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="position-relative custom-circle">
+                                <div class="rounded-circle custom-bg"></div>
+                                <div class="position-absolute custom-icon">
+                                    <div class="rounded custom-inner-icon"> <i class="bi bi-geo-alt-fill"></i></div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-start gap-1">
+                                <div class="fw-bold custom-title">Localisation du Dojo</div>
+                                <div class="custom-text">Pl. Marcellin Renault, 37140 Bourgueil</div>
+                            </div>
+                        </div>
+                         <div class="d-flex align-items-start gap-3">
+                            <div class="position-relative custom-circle">
+                                <div class="rounded-circle custom-bg"></div>
+                                <div class="position-absolute custom-icon">
+                                    <div class="rounded custom-inner-icon"> <i class="bi bi-geo-alt-fill"></i></div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-start gap-1">
+                                <div class="fw-bold custom-title">Localisation du Gymnase</div>
+                                <div class="custom-text">3 Rue de Fontenelles, 37140 Bourgueil</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="position-relative custom-circle">
+                                <div class="rounded-circle custom-bg"></div>
+                                <div class="position-absolute custom-icon">
+                                    <div class="rounded custom-inner-icon"> <i class="bi bi-geo-alt-fill"></i></div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-start gap-1">
+                                <div class="fw-bold custom-title">Localisation du Terrain D'Athlétisme</div>
+                                <div class="custom-text">2 Av. Jean Carmet, 37140 Bourgueil</div>
+                            </div>
+                        </div>
+                        
+
 
                     </div>
                 </div>

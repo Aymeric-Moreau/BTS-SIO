@@ -8,11 +8,14 @@
 
                         <div class="card cc">
                             <h1 class="card-title ctc mb-4">Contactez-nous !</h1>
+                            <!-- L'attribut action indique ou envoyer les informations du formulaire  -->
                             <form action="index.php?uc=decouvert&action=form" method="post">
                                 <div class="form-group">
                                     <label for="nom">Nom et Prénom</label>
                                     <div class="input-group mb-3">
+                                        <!-- incon sur le coté du champ -->
                                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+                                        <!-- champ prévu pour recevoir le texte -->
                                         <input type="text" class="form-control" id="nom" placeholder="Placeholder Text" aria-label="nom" aria-describedby="basic-addon1">
                                     </div>
 
@@ -47,7 +50,7 @@
                                     </div>
                                     <!--                                    <div id="commentaire-counter" class="form-counter">0/200</div>-->
                                 </div>
-
+                                <!-- permert d'envoyer le formulaire -->
                                 <button type="submit" class="btn btn-primary btnc">Envoyer</button>
                             </form>
                         </div>

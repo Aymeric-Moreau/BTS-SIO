@@ -1,7 +1,10 @@
-<h1 class="h1Section">"DÉCOUVERTE DU SPORT" POUR LES ENFANTS</h1>
+<h1 class="h1Intro">"DÉCOUVERTE DU SPORT" POUR LES ENFANTS</h1>
 <div class="container text-center">
+    <!-- Fais en sorte que si c'est un écran petit les colonnes s'affichent une par une et si l'écran est plus grand, les colonnes s'affichent 2 par 2. -->
     <div class="row row-cols-1 row-cols-md-2">
+        <!-- créer un colonne pour la zone de texte -->
         <div class="col">
+            <!-- zone prévu pour le 1er texte -->
             <div class="text-square">
                 <h2></h2>
                 <h4>  ‎ ‎ ‎ ‎  </h4>
@@ -16,17 +19,21 @@
                     le fera évoluer dans sa relation à l’autre.</h4>
             </div>
         </div>
+        <!-- créer une colonne pour l'image-->
         <div class="col">
             <div class="image-square">
+                <!-- 1ere image -->
                 <img src="assets/img/PATINOIRE.jpg" alt="Photo d'un groupe d'un cours de patin sur glace" style="max-width: 100%;">
             </div>
         </div>
         <div class="col">
             <div class="image-square">
+                <!-- 2eme image -->
                 <img src="assets/img/KUN-FU.jpg" alt="Photo d'un cours de kun-fu pour les enfants" style="max-width: 100%;">
             </div>
         </div>
         <div class="col">
+            <!-- zone pour le 2eme texte -->
             <div class="text-square">
                 <p>  ‎ ‎ ‎ ‎  </p>
                 <p><strong>Accessible aux enfants dès 3 ans (si rentrée scolaire actée) jusqu’à 7 ans :</strong></p>

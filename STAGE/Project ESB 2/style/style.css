@@ -149,25 +149,8 @@ nav{
     border-radius: 16px;
 }
 
-
-
-.cp{
-    max-width: 616px;
-    background: white;
-    border-radius: 16px;
-    overflow: hidden;
-    font-family: 'tahoma';
-    margin-left: 0;
-    margin-right: 0;
-}
-.h1e{
-    text-align: left;
-    margin-bottom: 5%;
-    color: #243AB0;
-    font-weight: bold;
-    margin-left: 4%;
-    
-}
+/* Change le fond de toute la zone prévue pour les card, ajoute des espace au-dessus et en dessous pour qu'il ne soit pas collé au autre élément.
+Fais en sorte que la zone prenne toute la largeur dès l'écran surtout pour le background et il adapte sa hauteur en fonction des éléments qu'il possède.*/
 .equipe{
     background: #E7EAFA;
     padding-top: 5%;
@@ -176,9 +159,29 @@ nav{
     width: 100%;
     height: auto;
 }
+
+/*applique une taille maximal de 616px aux card, met le fond en blanc et change la police du texte*/
+.cp{
+    max-width: 616px;
+    background: white;
+    font-family: 'tahoma';
+
+}
+
+/* applique la couleur #253AB2 au fond du titre de la card*/
 .titleP{
     background: #253AB2;
 }
+/* Aligne le texte du titre à gauche, ajoute un espace en dessous et à gauche du texte, modifie la couleur du titre et met le texte en gras.*/
+.h1e{
+    text-align: left;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    color: #243AB0;
+    font-weight: bold;
+  font-family: 'tahoma';
+}
+
 .containContact{
     margin-top: 5%;
     margin-bottom: 2%;
@@ -242,7 +245,7 @@ nav{
     align-items: center;
 }
 
-.form-group .form-icon:before {
+/*.form-group .form-icon:before {
     content: " ";
     position: absolute;
     width: 24px;
@@ -252,73 +255,64 @@ nav{
     transform: translateY(-50%);
     background: #243AB1;
     border-radius: 50%;
-}
+}*/
 
-.form-group .form-input {
+/*.form-group .form-input {
     padding-left: 44px;
-}
-
+}*/
+/* modifier les input 
+supprime les espace qu'il pourais avoir a gauche, met le fond en blanc'*/
 .form-group .form-input input {
     padding-left: 0;
     background: white;
     width: 100%;
-    /*    color: #ffffff;  Nouvelle propriété */
+  
 }
 
+/* modifier le texte dans les champ
+elle modifie la couleurn et la taille, mets le texte en gras et permet de couper les mots long qui dépasse */
 .form-group .form-input input::placeholder {
     color: #687787;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    font-weight: bold;
+
     word-wrap: break-word;
 }
 
-.form-group .form-textarea {
-    position: relative;
-}
 
+/* Classe pour l'input du textarea 
+mets sa taille a 100%, ajoute une bordure, arrondis des bord et désactive la posibilité de modifier la taille du champ par l'utilisateur */
 .form-group .form-textarea textarea {
     width: 100%;
     border: 0.5px solid #8996A2;
     border-radius: 8px;
-    padding: 12px;
-    height: 107px;
+    height: 100%;
     resize: none;
 }
 
-.form-group .form-comment-icon {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    right: 12px;
-    bottom: 12px;
-    transform: rotate(-45deg);
-    background: #8996A2;
-}
 
-.form-group .form-counter {
-    color: #4E5D6B;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    word-wrap: break-word;
-    text-align: right;
-}
 
+/* Classe pour le bouton qui envoie le formulaire
+
+Changez le fond du bouton et la couleur du texte, met le texte en gras,
+arrondissez les bords, ajoutez des espaces vides à l'intérieur du bouton pour le grossir et créez une animation de transition lorsqu'on le survole.   */
 .btnc {
     background: #243AB0;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 700;
+font-weight: bold;
     border-radius: 8px;
     padding: 12px 40px;
     width: 100%;
     transition: background-color 0.3s ease;
 }
-
+/* quand on  survol le bouton d'envoi il change de couleur */
 .btnc:hover {
     background: #15267E;
 }
+
+
+
 
 .container {
     display: flex;
@@ -415,13 +409,17 @@ nav{
     background: #15267E;
 }
 
-.h1Section{
+/*Elle modifie le titre de la partie introduction.
+Elle change la couleur du texte, ajoute un espace en dessous et au-dessus du titre, change la police du texte et met le texte en gras.*/
+.h1Intro{
     color: #243AB0;
     margin-bottom: 5%;
     margin-top: 7%;
-    font-weight: bold;
     font-family: tahoma;
+    font-weight: bold;
+    
 }
+
 *{
     font-family: tahoma;
 }
@@ -429,3 +427,8 @@ nav{
 .h4i{
     font-family: tahoma;
 }
+
+  .ulpresentation {
+    list-style-type: none;
+    
+  }

@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="card" style="max-width: 616px; background: white; border-radius: 16px; overflow: hidden;">
+        <div class="card" style="max-width: 616px; ">
             <div class="row g-0">
                 <div class="col-4">
                     <img src="assets/img/IMG.png" class="img-fluid rounded-start" alt="...">
