@@ -14,7 +14,7 @@ public class Cooperateur {
 
     private final String nomCoop;
     private Commune laCommune;
-    private List<Parcelle> listeParcelles;
+    private List<Parcelle> lesParcelles;
 
     /**
      * permet de créer un coopérateur
@@ -26,7 +26,7 @@ public class Cooperateur {
         // initialise les variables d'instances
         nomCoop = nom;
         laCommune = c;
-        listeParcelles = new ArrayList<>();
+        lesParcelles = new ArrayList<>();
     }
 
     /**
@@ -62,8 +62,8 @@ public class Cooperateur {
      *
      * @return la liste des parcelles
      */
-    public List<Parcelle> getListeParcelles() {
-        return listeParcelles;
+    public List<Parcelle> getLesParcelles() {
+        return lesParcelles;
     }
 
     /**
@@ -72,8 +72,9 @@ public class Cooperateur {
      * @param p représente une parcelle
      */
     public void addParcelle(Parcelle p) {
-
-        listeParcelles.add(p);
+        if (!existeParcelle(p)) {
+            lesParcelles.add(p);
+        }
 
     }
 
@@ -84,13 +85,28 @@ public class Cooperateur {
      */
     public int donneQuantiteTotale() {
         int total = 0;
-        for (Parcelle p : listeParcelles) {
+        for (Parcelle p : lesParcelles) {
             total = total + p.getQteProduction();
         }
         return total;
     }
 
-      /**
+    /**
+     * permet de calculer la quantité totale de raisin produite pour une anné
+     *
+     * @param anne l'annee voulu
+     * 
+     * @return la quantité totale de raisin produite
+     */
+    public int donneQuantiteTotaleAnne(int anne) {
+        int total = 0;
+        for (Parcelle p : lesParcelles) {
+            total = total + p.getQteProductionAnne(anne);
+        }
+        return total;
+    }
+
+    /**
      * Vérifie si l'objet Parcelle passé en paramètre existe dans la collection
      * des parcelles
      *
@@ -100,14 +116,24 @@ public class Cooperateur {
      */
     public boolean existeParcelle(Parcelle laParcelle) {
         boolean trouve = false;
-        for (Parcelle p : listeParcelles) {
-            if (p.equals(laParcelle)) {
+        for (Parcelle p : lesParcelles) {
+            if (p.getNumParcelle() == laParcelle.getNumParcelle()) {
                 trouve = true;
 
             }
 
         }
         return trouve;
+    }
+
+    /**
+     * tostring
+     * 
+     * @return le string avec le nom du cooperateur et la commune
+     */
+    @Override
+    public String toString() {
+        return "Cooperateur{" + "nomCoop=" + nomCoop + ", laCommune=" + laCommune + '}';
     }
 
 }

@@ -1,5 +1,8 @@
 package com.sio.cnc;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Classe Parcelle Permet d'instancier un objet de type Parcelle Une parcelle
  * est constituée d'un nombre d'hectares et produit une quantité de raisin
@@ -11,34 +14,33 @@ public class Parcelle {
 
     private final int numParcelle;
     private int nbHectares;
-    private int qteProduction;
+
+    private Commune laCommune;
+    private List<Production> lesProductions;
 
     /**
      * permet de créer une nouvelle parcelle
      *
-     * @param numParcelle
+     * @param numParcelle numéro de la parcelle
      * @param nbHa nombre d'hectares de la parcelle
+     * @param commune la commune voulu
      */
-    public Parcelle(int numParcelle, int nbHa) {
+    public Parcelle(int numParcelle, int nbHa, Commune commune) {
         // initialise les variables d'instances
         this.numParcelle = numParcelle;
         nbHectares = nbHa;
-        qteProduction = 0;
+
+        this.laCommune = commune;
+        lesProductions = new ArrayList<>();
     }
 
     /**
-     * permet de créer une nouvelle parcelle avec la quantité produite
+     * accesseur
      *
-     * @param numParcelle numéro de la parcelle
-     * @param nbHa nombre d'hectares de la parcelle
-     * @param qteProd quantité de raisin produite par la parcelle exprimée en
-     * kilogrammes
+     * @return le l'objet laCommune
      */
-    public Parcelle(int numParcelle, int nbHa, int qteProd) {
-        // initialise les variables d'instances
-        this.numParcelle = numParcelle;
-        nbHectares = nbHa;
-        qteProduction = qteProd;
+    public Commune getLaCommune() {
+        return laCommune;
     }
 
     /**
@@ -66,7 +68,40 @@ public class Parcelle {
      * @return le quantité produite
      */
     public int getQteProduction() {
-        return qteProduction;
+        int result = 0;
+        for (Production prod : lesProductions) {
+            result += prod.getQteProduit();
+        }
+        return result;
+    }
+
+    /**
+     * accesseur
+     *
+     * @return la liste des production
+     */
+    public List<Production> getLesProduction() {
+        return lesProductions;
+    }
+
+    /**
+     * Ajoute une parcelle à la liste
+     *
+     * @param p représente une parcelle
+     */
+    public void addProduction(Production p) {
+        boolean ok = true;
+
+        for (Production prod : lesProductions) {
+            if (p.getAnnee() == prod.getAnnee()) {
+                ok = false;
+            }
+
+        }
+        if (ok == true) {
+            lesProductions.add(p);
+        }
+
     }
 
     /**
@@ -79,21 +114,35 @@ public class Parcelle {
     }
 
     /**
-     * Modifie la quantité de production de la parcelle
+     * donne la quantité produite pour une annee
      *
-     * @param qteProduction nouvelle production
+     * @param annee l'anne voulu
+     *
+     * @return le quantité produite pour une annee
      */
-    public void setQteProduction(int qteProduction) {
-        this.qteProduction = qteProduction;
+    public int getQteProductionAnne(int annee) {
+        int result = 0;
+
+        for (Production prod : lesProductions) {
+
+            if (prod.getAnnee() == annee) {
+
+                result = prod.getQteProduit(); // Ajoutez la quantité de production au résultat
+            }
+        }
+
+        return result;
     }
 
     /**
+     * to string
      *
-     * @return
+     * @return un string avec le numéro de la parcelle, le nombre d'hectare et
+     * la quantité de production
      */
     @Override
     public String toString() {
-        return "Parcelle{" + "numParcelle=" + numParcelle + ", nbHectares=" + nbHectares + ", qteProduction=" + qteProduction + '}';
+        return "Parcelle{" + "numParcelle=" + numParcelle + ", nbHectares=" + nbHectares + ", qteProduction=" + getQteProduction() + '}';
     }
 
 }

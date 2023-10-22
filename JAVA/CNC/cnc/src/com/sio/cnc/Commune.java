@@ -12,22 +12,27 @@ public class Commune {
     private final String nomCommune;
     private static double limiteInfClassement;
     private static double limiteSupClassement;
-    private static double classement;
+    private double classement;
 
     /**
      * permet de créer une nouvelle commune
      *
      * @param codePostal code postal de la communne
      * @param nomCommune nom de la commune
-     * @param classement classement de la commune
+     *
      */
-    public Commune(String codePostal, String nomCommune, double classement) {
+    public Commune(String codePostal, String nomCommune) {
 
         this.codePostal = codePostal;
         this.nomCommune = nomCommune;
-        this.classement = classement;
+
     }
 
+    /**
+     *accesseur
+     * retourne le code postal
+     * @return le code postal
+     */
     public String getCodePostal() {
         return codePostal;
     }
@@ -42,18 +47,47 @@ public class Commune {
         return nomCommune;
     }
 
+    /**
+     * accesseur
+     * modif la limite inf
+     * @return la limite inférieur du classement
+     */
     public static double getLimiteInfClassement() {
         return limiteInfClassement;
     }
 
+    /**
+     * accesseur
+     * modifie la limit sup
+     * @return la limite supérieur du classement
+     */
     public static double getLimiteSupClassement() {
         return limiteSupClassement;
     }
 
+    /**
+     * accesseur
+     * retourne le classement
+     * @return le classement
+     */
+    public double getClassement() {
+        return classement;
+    }
+
+    /**
+     * mutateur
+     * modif la limte inférieur du classement
+     * @param limiteInfClassement la limite inférieur du classement voulu
+     */
     public static void setLimiteInfClassement(double limiteInfClassement) {
         Commune.limiteInfClassement = limiteInfClassement;
     }
 
+    /**
+     * mutateur
+     * modif la limte supérieur du classement
+     * @param limiteSupClassement la limite supérieur du classement voulu
+     */
     public static void setLimiteSupClassement(double limiteSupClassement) {
         Commune.limiteSupClassement = limiteSupClassement;
     }
@@ -72,7 +106,9 @@ public class Commune {
     }
 
     /**
-     * détermine la mention à afficher sur les étiquettes en fonction du classement
+     * détermine la mention à afficher sur les étiquettes en fonction du
+     * classement
+     *
      * @return la mention
      */
     public String retourneMention() {
@@ -92,6 +128,11 @@ public class Commune {
 
     }
 
+    /**
+     *
+     * retourne un string
+     * @return un string avec le codepostal , le nom de la commune et la mention
+     */
     @Override
     public String toString() {
 
