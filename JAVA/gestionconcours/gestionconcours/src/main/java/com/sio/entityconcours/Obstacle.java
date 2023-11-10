@@ -4,17 +4,20 @@
  */
 package com.sio.entityconcours;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import java.util.List;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
 @Table(name = "Obstacle")
@@ -22,11 +25,16 @@ public class Obstacle {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int idObstacle;
+    @Column(name = "hauteurObstacle")
     private int hauteur;
+
+    @Column(name = "largeurObstacle")
     private int largeur;
 
-
+    @ManyToOne
+    @JoinColumn(name = "numTypeObstacle")
+    private TypeObstacle objTypeObstacle;
 
     public Obstacle() {
     }
@@ -39,8 +47,12 @@ public class Obstacle {
         return largeur;
     }
 
-    public int getId() {
-        return id;
+    public int getIdObstacle() {
+        return idObstacle;
+    }
+
+    public void setObjTypeObstacle(TypeObstacle objTypeObstacle) {
+        this.objTypeObstacle = objTypeObstacle;
     }
 
     public void setHauteur(int hauteur) {
@@ -51,8 +63,12 @@ public class Obstacle {
         this.largeur = largeur;
     }
 
-    private void setId(int id) {
-        this.id = id;
+    private void setIdObstacle(int idObstacle) {
+        this.idObstacle = idObstacle;
+    }
+
+    public TypeObstacle getObjTypeObstacle() {
+        return objTypeObstacle;
     }
 
 }

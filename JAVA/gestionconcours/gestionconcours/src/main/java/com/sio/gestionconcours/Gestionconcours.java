@@ -6,7 +6,7 @@ package com.sio.gestionconcours;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 public class Gestionconcours {
 

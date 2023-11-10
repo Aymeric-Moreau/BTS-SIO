@@ -20,7 +20,7 @@ import java.util.List;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
 @Table(name = "Bareme")
@@ -29,7 +29,7 @@ public class Bareme {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int codeBareme;
-    private String libelleBareme;
+    private String libelle;
 
     @ManyToMany
     @JoinTable(name = "Eliminatoire",
@@ -41,7 +41,7 @@ public class Bareme {
                 @UniqueConstraint(name = "uniquecodeBaremecodeFaute",
                         columnNames = {"codeBareme", "codeFaute"})}
     )
-    private List<Faute> listeFauteEliminatoire;
+    private List<Faute> listeFauteEliminatoire = new ArrayList<>();
 
     public Bareme() {
     }
@@ -50,20 +50,20 @@ public class Bareme {
         return codeBareme;
     }
 
-    public void setCodeBareme(int codeBareme) {
-        this.codeBareme = codeBareme;
-    }
-
-    public String getLibelleBareme() {
-        return libelleBareme;
-    }
-
-    public void setLibelleBareme(String libelleBareme) {
-        this.libelleBareme = libelleBareme;
+    public String getLibelle() {
+        return libelle;
     }
 
     public List<Faute> getListeFauteEliminatoire() {
         return listeFauteEliminatoire;
+    }
+
+    public void setCodeBareme(int codeBareme) {
+        this.codeBareme = codeBareme;
+    }
+
+    public void setLibelle(String libelle) {
+        this.libelle = libelle;
     }
 
     public void setListeFauteEliminatoire(List<Faute> listeFauteEliminatoire) {

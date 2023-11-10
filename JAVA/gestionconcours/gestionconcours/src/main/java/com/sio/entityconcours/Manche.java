@@ -9,15 +9,14 @@ import jakarta.persistence.Entity;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
-@DiscriminatorValue(value="TYPEManche")
-public class Manche extends Phase{
+@DiscriminatorValue(value = "Manche")
+public class Manche extends Phase {
 
     public Manche() {
+
     }
-    
-    
-    
+
 }

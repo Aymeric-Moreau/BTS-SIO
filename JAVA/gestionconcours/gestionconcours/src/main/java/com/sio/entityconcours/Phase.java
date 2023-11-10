@@ -12,37 +12,51 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import static jakarta.persistence.InheritanceType.SINGLE_TABLE;
 import jakarta.persistence.Inheritance;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
-@Table(name="Phase")
-@Inheritance(strategy=SINGLE_TABLE)
-@DiscriminatorColumn(name="TYPE", discriminatorType=STRING, length=10)
+@Table(name = "phase_epreuve")
+@Inheritance(strategy = SINGLE_TABLE)
+@DiscriminatorColumn(name = "typePhase", discriminatorType = STRING, length = 7)
 public abstract class Phase {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int idPhase;
     private int distanceParcours;
 
-    public int getId() {
-        return id;
-    }
+    @ManyToOne
+    @JoinColumn(name = "idepreuve")
+    private Epreuve objEpreuve;
 
-    public void setId(int id) {
-        this.id = id;
+    public int getIdPhase() {
+        return idPhase;
     }
 
     public int getDistanceParcours() {
         return distanceParcours;
     }
 
+    public Epreuve getObjEpreuve() {
+        return objEpreuve;
+    }
+
+    public void setIdPhase(int idPhase) {
+        this.idPhase = idPhase;
+    }
+
     public void setDistanceParcours(int distanceParcours) {
         this.distanceParcours = distanceParcours;
+    }
+
+    public void setObjEpreuve(Epreuve objEpreuve) {
+        this.objEpreuve = objEpreuve;
     }
 
 }

@@ -13,25 +13,24 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import java.util.List;
 
-
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
 @Table(name = "concours")
 public class Concours {
-    
+
     @Id
     @Column(length = 6)
     private String codeFFE;
     private String libelleConcours;
-    
-    @OneToMany(mappedBy="numConcours")
+
+    @OneToMany(mappedBy = "objConcours")
     private List<Epreuve> listeEpreuve;
 
     public Concours() {
-        
+
     }
 
     public String getCodeFFE() {
@@ -42,6 +41,10 @@ public class Concours {
         return libelleConcours;
     }
 
+    public List<Epreuve> getListeEpreuve() {
+        return listeEpreuve;
+    }
+
     public void setCodeFFE(String codeFFE) {
         this.codeFFE = codeFFE;
     }
@@ -49,6 +52,9 @@ public class Concours {
     public void setLibelleConcours(String libelleConcours) {
         this.libelleConcours = libelleConcours;
     }
-    
-    
+
+    public void setListeEpreuve(List<Epreuve> listeEpreuve) {
+        this.listeEpreuve = listeEpreuve;
+    }
+
 }

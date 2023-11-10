@@ -5,6 +5,7 @@
 package com.sio.entityconcours;
 
 import com.sio.entityconcours.Obstacle;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -17,20 +18,19 @@ import java.util.List;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
-@Table(name = "TypeObstacle")
+@Table(name = "Type_obstacle")
 public class TypeObstacle {
 
     @Id
-     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Column(name = "libelleObstacle")
     private String libelle;
 
-    @OneToMany
-    @JoinColumn(name = "numTypeObstacle")
-    private List<Obstacle> objTypeObstacle;
+
 
     public TypeObstacle() {
     }
@@ -39,14 +39,12 @@ public class TypeObstacle {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-
-
     public String getLibelle() {
         return libelle;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setLibelle(String libelle) {

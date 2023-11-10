@@ -8,7 +8,7 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
         <!-- comportement pour la création des table-->
-        <property name="hbm2ddl.auto">create</property>
+        <!--<property name="hbm2ddl.auto">create</property> -->
         
         <!-- affiche le log sql -->
         <property name="hibernate.show_sql">true</property>
@@ -23,6 +23,9 @@
         <mapping class="com.sio.entityconcours.Bareme" />
         <mapping class="com.sio.entityconcours.TypeObstacle" />
         <mapping class="com.sio.entityconcours.Faute" />
+        <mapping class="com.sio.entityconcours.Barrage" />
+        <mapping class="com.sio.entityconcours.Phase" />
+        <mapping class="com.sio.entityconcours.Manche" />
 
           
     </session-factory>

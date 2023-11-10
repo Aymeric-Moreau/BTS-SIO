@@ -9,10 +9,10 @@ import jakarta.persistence.Entity;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
-@DiscriminatorValue(value="TYPEBarrage")
+@DiscriminatorValue(value="Barrage")
 public class Barrage extends Phase{
 
     public Barrage() {

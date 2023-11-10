@@ -12,6 +12,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.Month;
 
 /**
@@ -92,4 +93,15 @@ public class ConversionDateTest {
         assertEquals(dates, result);
     }
 
+    
+        /**
+     * Test of stringToLocalDateTime method, of class ConversionDate.
+     */
+    @Test
+    public void testStringToLocalDateTime() {
+        LocalDateTime test = LocalDateTime.of(2023, 9, 25,10,23,30);
+        dates = "25/09/2023  10:23:30";
+        LocalDateTime result = ConversionDate.stringToLocalDateTime(dates);
+        assertEquals(test, result);
+    }
 }

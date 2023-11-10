@@ -12,13 +12,13 @@ import jakarta.persistence.Table;
 
 /**
  *
- * @author aymer
+ * @author aymeric
  */
 @Entity
 @Table(name = "Faute")
 public class Faute {
-    
-      @Id
+
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int codeFaute;
     private String libelleFaute;
@@ -30,18 +30,16 @@ public class Faute {
         return codeFaute;
     }
 
-    public void setCodeFaute(int codeFaute) {
-        this.codeFaute = codeFaute;
-    }
-
     public String getLibelleFaute() {
         return libelleFaute;
+    }
+
+    public void setCodeFaute(int codeFaute) {
+        this.codeFaute = codeFaute;
     }
 
     public void setLibelleFaute(String libelleFaute) {
         this.libelleFaute = libelleFaute;
     }
-    
-    
-    
+
 }
