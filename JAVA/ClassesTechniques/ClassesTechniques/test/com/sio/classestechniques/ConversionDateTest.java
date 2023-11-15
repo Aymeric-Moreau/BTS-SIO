@@ -99,9 +99,26 @@ public class ConversionDateTest {
      */
     @Test
     public void testStringToLocalDateTime() {
-        LocalDateTime test = LocalDateTime.of(2023, 9, 25,10,23,30);
-        dates = "25/09/2023  10:23:30";
-        LocalDateTime result = ConversionDate.stringToLocalDateTime(dates);
-        assertEquals(test, result);
+//        LocalDateTime test = LocalDateTime.of(2023, 9, 25,10,23,30);
+//        dates = "25/09/2023  10:23:30";
+//        LocalDateTime result = ConversionDate.stringToLocalDateTime(dates);
+//        assertEquals(test, result);
+        
+         //Test unitaire méthode de base
+        assertEquals(LocalDateTime.of(2022,8,10,18,45), ConversionDate.stringToLocalDate("2022/08/10", "yyyy/MM/dd H:m"));
+
+        //Test unitaire si null
+        assertNull(ConversionDate.stringToLocalDateTime(null, "dd/MM/yyyy H:m"));
     }
+    
+    @Test
+    public void testLocalDateTimeToString() {
+
+        //Test unitaire méthode de base
+        assertEquals("11/10/2023 18:45", ConversionDate.localDateTimeToString(LocalDateTime.of(2023, 10, 11, 18, 45), "dd/MM/yyyy H:m"));
+
+        //Test unitaire si null
+        assertNull(ConversionDate.localDateTimeToString(null, "dd/MM/yyyy H:m"));
+    }
+
 }

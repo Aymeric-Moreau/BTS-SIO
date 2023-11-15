@@ -6,8 +6,8 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
 /**
- *
- * @author
+ * classe permetant de faire des conversion de date
+ * @author aymeric
  */
 public class ConversionDate {
 
@@ -69,6 +69,7 @@ public class ConversionDate {
      * Convertit un objet LocalDate en chaîne de caractères
      *
      * @param date un objet LocalDate
+     * @param patern une chaine de caractére comportant le paterne que l'on souhaite 
      * @return une chaîne au format jour/mois/année ou null si la conversion
      * n'est pas possible
      */
@@ -90,10 +91,17 @@ public class ConversionDate {
      * jour/mois/année/heure/minute/seconde
      * @return objet LocalDate ou null si la conversion n'est pas possible
      */
-    public static LocalDateTime stringToLocalDateTime(String date) {
+    public static LocalDateTime stringToLocalDateTime(String date, String pattern) {
+//        try {
+//           DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+//
+//            LocalDateTime localDateTime = LocalDateTime.parse(date, formatter);
+//            return localDateTime;
+//        } catch (DateTimeParseException | NullPointerException e) {
+//            return null;
+//        }
         try {
-           DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
-
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
             LocalDateTime localDateTime = LocalDateTime.parse(date, formatter);
             return localDateTime;
         } catch (DateTimeParseException | NullPointerException e) {
@@ -103,11 +111,13 @@ public class ConversionDate {
     }
     
      /**
+      * COnvertit un objet LocalDateTime en chaine de caractére
      * @param date un objet LocalDateTime
+     * @param patern une chaine de caractére comportant le paterne que l'on souhaite 
      * @return une chaîne au format jour/mois/annéeheure/minute/seconde ou null si la conversion
      * n'est pas possible
      **/
-    public static String localDateTimeToString(LocalDate date , String patern) {
+    public static String localDateTimeToString(LocalDateTime date , String patern) {
         try {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern(patern);
             return formatter.format(date);
